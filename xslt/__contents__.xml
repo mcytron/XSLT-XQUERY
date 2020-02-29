@@ -1,0 +1,51 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/madrid/xslt" version="1" owner="admin" group="dba" mode="755" created="2019-11-26T14:53:39.474Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="html-transform-people.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-01-10T14:06:37.78Z" modified="2020-02-03T01:03:55.489Z" filename="html-transform-people.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform-stats-tds.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-02-10T18:51:28.455Z" modified="2020-02-11T13:37:40.928Z" filename="csv-transform-stats-tds.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="html-transform-works.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-01-16T18:37:22.208Z" modified="2020-02-03T01:07:02.986Z" filename="html-transform-works.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="placeography-html-transform-tds.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-19T17:07:36.426Z" modified="2020-02-07T12:09:37.946Z" filename="placeography-html-transform-tds.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform-stats-mentions-madrid.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-02-17T18:42:24.851Z" modified="2020-02-18T18:33:49.487Z" filename="csv-transform-stats-mentions-madrid.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tranformgeocsvtoxml.xsl" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:07:58.204Z" modified="2019-11-26T15:07:58.204Z" filename="tranformgeocsvtoxml.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="named-place-words.xslt" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:07:58.081Z" modified="2019-11-26T15:07:58.081Z" filename="named-place-words.xslt" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="named-place-words.xsl" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:07:57.951Z" modified="2019-11-26T15:07:57.951Z" filename="named-place-words.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform-all-works.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-01-25T22:47:19.809Z" modified="2020-01-25T23:17:51.506Z" filename="csv-transform-all-works.xsl" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform2-demonyms.xsl" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:07:57.422Z" modified="2019-11-26T15:07:57.422Z" filename="csv-transform2-demonyms.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform2-collectives.xsl" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:07:57.288Z" modified="2019-11-26T15:07:57.288Z" filename="csv-transform2-collectives.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform.xsl" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:07:57.163Z" modified="2019-11-26T15:07:57.163Z" filename="csv-transform.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform-stats-mentions-madrid.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-02-18T18:36:45.918Z" modified="2020-02-18T20:53:29.866Z" filename="csv-transform-stats-mentions-madrid.xsl" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform-all-places.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-01-25T22:46:58.755Z" modified="2020-01-25T23:15:55.668Z" filename="csv-transform-all-places.xsl" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="csv-transform-all-people.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-01-25T22:26:18.945Z" modified="2020-01-25T22:26:18.945Z" filename="csv-transform-all-people.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="html-transform-tds.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-21T00:29:44.154Z" modified="2020-02-10T13:18:31.9Z" filename="html-transform-tds.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

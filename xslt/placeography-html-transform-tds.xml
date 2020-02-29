@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
+
+<xsl:output method="html" omit-xml-declaration="yes" encoding="utf-8" doctype-public="-//W3C//DTD HTML 4.0//EN" doctype-system="http://www.w3.org/TR/html4/strict.dtd"/>
+
+<!--ADDED-->
+<xsl:variable name="bibliography" select="doc('xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/xml/list-of-works-people.xml')"/>
+<xsl:variable name="snippets" select="doc('xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/xml/PLACEOGRAPHY-BIBLIO.xml')"/>
+<xsl:variable name="histpeopledoc" select="doc('http://45.56.98.26/tds-data/places_country_people_hist.xml')"/>
+<xsl:variable name="mythpeopledoc" select="doc('http://45.56.98.26/tds-data/places_country_people_myth.xml')"/>
+<xsl:variable name="workpeopledoc" select="doc('http://45.56.98.26/tds-data/places_country_obras.xml')"/>
+<xsl:key name="place" match="//tei:listPlace/tei:place" use="@xml:id"/>
+
+<xsl:key name="book" match="$bibliography//tei:listBibl/tei:bibl/tei:field" use="[@name='workref']"/>
+ <!--ADDED-->
+
+     <xsl:template match="/">
+      <html>
+      <head>
+          <style>
+body {font-family: helvetica,arial,sans-serif;font-size:80%}
+h1   {color: black;font-family: helvetica,arial,sans-serif;font-size:90%}
+#snippetinfo    {color: gray;font-size:70%}
+</style>
+      </head>
+            <body>
+         <xsl:apply-templates/>
+      </body>
+        </html>
+   </xsl:template>
+
+  <!--xsl:key name="placeref" match="//tei:place" use="@xml:id"/-->
+  <!--xsl:key name="bookref" match="//tei:place/bibl" use="@xml:id"/-->
+
+
+ <xsl:template match="//tei:place">
+    <xsl:variable name="placeref">
+                        <xsl:value-of select="@xml:id"/>
+                    </xsl:variable>
+<xsl:if test="@xml:id !='' and @xml:id !='NULL' and @xml:id !='PLACENEEDSLOCATION' and @xml:id !='PLACE?'">
+ <hr/>
+ </xsl:if>
+        <h1>
+            <a name="{$placeref}">
+ <xsl:value-of select="tei:name"/>
+            </a>
+</h1>
+<xsl:if test="tei:note[@type ='placetype'] !='region,country'">
+<xsl:if test="tei:country != ''">
+  <xsl:value-of select="key('place',normalize-space(tei:country))/tei:name"/>
+
+            <br/>
+</xsl:if>
+        </xsl:if>
+
+<xsl:if test="tei:note[@type ='placetype'] !=''">
+
+<xsl:value-of select="replace(tei:note[@type ='placetype'],',',', ')"/>
+<br/>
+</xsl:if>
+
+
+<!--ADDED--><!---->
+<xsl:for-each select="tei:bibl">
+ <xsl:variable name="biblref" select="@xml:id"/>
+  
+<!--xsl:if test="tei:bibl/@xml:id=$biblref"-->
+<br/>
+<!--XPATH SELECTS SIBLING FIELD NODE VALUE USING WHERE STATEMENT-->
+<xsl:for-each select="$bibliography//tei:listBibl/tei:bibl[normalize-space(tei:field[@name='workref'])=$biblref]/tei:field[@name='workname']">
+<i>
+                    <xsl:value-of select="normalize-space()"/>
+                </i>   </xsl:for-each>(<xsl:value-of select="replace($biblref,'OBRA','')"/>)
+<ul>
+                <xsl:variable name="placeref1" select="concat('-',$placeref)"/>
+                <xsl:variable name="placeref1b" select="concat('-',$placeref,'_')"/>
+                <xsl:variable name="placerefmid" select="concat('_',$placeref,'_')"/>
+                <xsl:variable name="placerefx" select="concat('_',$placeref)"/>
+                <xsl:for-each select="$snippets//tei:bibl[contains(@xml:id,$biblref)]/tei:interp[contains(@xml:id,$biblref) and (ends-with(@xml:id,$placerefx) or contains(@xml:id,$placerefmid) or  contains(@xml:id,$placeref1b) or ends-with(@xml:id,$placeref1))]">
+   <li>
+                        <xsl:value-of select="text()"/>   <b>
+                            <xsl:value-of select="tei:hi"/>
+                        </b>  <xsl:value-of select="text()[2]"/> <br/>
+                        <span id="snippetinfo">
+                            <b>
+                                <xsl:value-of select="@ana"/>:</b> apartado  <xsl:value-of select="tokenize(@xml:id,'-')[2]"/>, párrafo  <xsl:value-of select="tokenize(@xml:id,'-')[3]"/>
+                        </span>
+                    </li>
+</xsl:for-each>
+            </ul>
+<!--/xsl:if-->
+
+</xsl:for-each>
+<!--ADDED-->
+
+<!--xsl:value-of select='tei:country' /-->
+
+<!--ADDED-->
+
+<xsl:variable name="histpeople">
+                        <xsl:value-of select="$histpeopledoc//row[normalize-space(field[@name='placeref'])=$placeref]/field[@name='histpeoplenames']"/>
+                    </xsl:variable>
+<xsl:if test="$histpeople != ''">
+
+            <br/>
+            <b>Personas históricas: </b>
+                            <xsl:apply-templates select="$histpeople/text()"/>
+
+                <!--xsl:apply-templates select="$histpeople/parse-xml-fragment(.)"/-->
+
+            
+</xsl:if>
+<!--ADDED-->
+<!--ADDED-->
+<xsl:variable name="mythpeople">
+                        <xsl:value-of select="$mythpeopledoc//row[normalize-space(field[@name='placeref'])=$placeref]/field[@name='mythpeoplenames']"/>
+                    </xsl:variable>
+<xsl:if test="$mythpeople != ''">
+<br/>
+            <br/>
+            <b>Personas mítico-religiosas: </b>
+                <xsl:apply-templates select="$mythpeople/text()"/>
+
+            
+</xsl:if>
+<!--ADDED-->
+<!--ADDED-->
+<xsl:variable name="worksnames">
+                        <xsl:value-of select="$workpeopledoc//row[normalize-space(field[@name='placeref'])=$placeref]/field[@name='worknames']"/>
+                    </xsl:variable>
+<xsl:if test="$worksnames != ''">
+<br/>
+            <br/>
+            <b>Obras: </b>
+             <xsl:apply-templates select="$worksnames/text()"/>
+            <!--xsl:variable name="single_quote"--><!--xsl:text--><!--'--><!--/xsl:text--><!--/xsl:variable-->
+                <!--xsl:apply-templates select="replace(replace($works/text(),'&quot;&quot;','&quot;'),$parens,'')" /-->
+
+            
+</xsl:if>
+
+<!--ADDED-->
+
+
+
+           <br/>
+            <br/>  
+
+
+<xsl:if test="@xml:id !='' and @xml:id !='NULL' and @xml:id !='PLACENEEDSLOCATION' and @xml:id !='PLACE?'">
+
+
+Códigos: | <xsl:apply-templates select="@xml:id"/> | 
+<xsl:variable name="geonamesid">
+                        <xsl:value-of select="tei:idno[@type='geonamesid']"/>
+                    </xsl:variable>
+<xsl:if test="tei:idno[@type='geonamesid'] != ''">
+Geonames: <a href="https://www.geonames.org/{$geonamesid}" target="new">
+                <xsl:apply-templates select="$geonamesid"/>
+            </a> |
+</xsl:if>
+<xsl:variable name="wikidataid">
+                        <xsl:value-of select="tei:idno[@type='wikidataid']"/>
+                    </xsl:variable>
+<xsl:if test="tei:idno[@type='wikidataid'] != ''">
+  Wikidata: <a href="https://www.wikidata.org/wiki/{$wikidataid}" target="new">
+                <xsl:apply-templates select="$wikidataid"/>
+            </a> |
+</xsl:if>
+
+
+<xsl:variable name="osmdataid">
+                        <xsl:value-of select="tei:idno[@type='osmdataid']"/>
+                    </xsl:variable>
+<xsl:if test="$osmdataid != ''">
+Datos Open Street Maps: <a href="https://www.openstreetmap.org/relation/{$osmdataid}" target="new">
+                <xsl:apply-templates select="$osmdataid"/>
+            </a> |
+</xsl:if>
+</xsl:if>
+
+
+ </xsl:template>
+ <!-- DON'T KNOW WHAT THIS IS...-->
+ <!--<xsl:template match="note[@type='workref']">
+      <xsl:variable name="match" select="."/>
+      <xsl:for-each select="tokenize(.,',')">
+         <xsl:variable name="id-pos" select="position()"/>
+         <xsl:value-of select="."/>
+         
+         <xsl:value-of select="tokenize($match/following-sibling::note[@type='workname'],',')[position() = $id-pos]"/>
+           
+            
+      </xsl:for-each>
+   </xsl:template>-->
+      <!--<xsl:template match="note[@type='workref']">
+      <xsl:variable name="match" select="."/>
+      <xsl:for-each select="tokenize(.,',')">
+         <xsl:variable name="id-pos" select="position()"/>
+         <xsl:value-of select="."/>
+         
+         <xsl:value-of select="tokenize($match/following-sibling::note[@type='workname'],',')[position() = $id-pos]"/>
+           
+            
+      </xsl:for-each>
+   </xsl:template>-->
+      
+          
+</xsl:stylesheet>

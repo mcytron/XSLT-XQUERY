@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:csv="csv:csv" xmlns:tei="http://www.tei-c.org/ns/1.0" version="3.0">
+        <xsl:output omit-xml-declaration="yes" method="text" encoding="utf-8"/>
+        <xsl:variable name="separator" select="','"/>
+        <xsl:variable name="newline" select="'&#xA;'"/>
+        <!--xsl:variable name="worksdoc" select="doc('xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/xml/TESTTENWORKS.xml')"/-->
+
+ <!--xsl:variable name="works" select="//tei:listBibl"/-->
+         <xsl:variable name="sourcedocapartado" select="//tei:div[@type='apartado']"/>
+
+ 
+
+        <xsl:template match="/">
+         <!--xsl:for-each select="//tei:listBibl/tei:bibl"-->
+
+        <!--xsl:variable name="workref" select="tei:field[@name='workref']"/-->
+        <!--xsl:variable name="workreflc" select="lower-case($workref)"/-->
+        <!--xsl:variable name="workrefshort" select="replace($workref,'OBRA','')"/-->
+        <!--xsl:variable name="workrefshortlc" select="lower-case($workrefshort)"/-->
+        <!--xsl:variable name="sourcedocuri" select="concat('xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/xml/',$workrefshortlc,'places.xml')"/-->
+        
+            <!--xsl:result-document href="xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/csv/stats-{$workreflc}.csv"-->
+             <xsl:result-document href="xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/csv/stats-obratds.csv">
+            
+           
+                <xsl:text>apartado</xsl:text>
+                <xsl:value-of select="$separator"/>
+                 <xsl:text>lugares_nombrados</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>lugares_no_nombrados</xsl:text>
+                  <xsl:value-of select="$separator"/>
+                 <xsl:text>gentilicios</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>palabras_extranjeras</xsl:text>
+                  <xsl:value-of select="$separator"/>
+                 <xsl:text>intertextos</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>heterotopias</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>palabras_de_moción</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>geografía</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>total</xsl:text>
+                <xsl:value-of select="$newline"/>
+                
+<xsl:for-each select="//tei:div[@type='apartado']">
+                <xsl:variable name="apartado">
+                        <xsl:value-of select="@n"/>
+                    </xsl:variable>
+                    <xsl:value-of select="$apartado"/>
+                    <xsl:value-of select="$separator"/>
+	             <xsl:variable name="lugares_nombrados">
+	                   <xsl:value-of select="count(.//tei:placeName)"/>
+	                      </xsl:variable>
+	                      <xsl:value-of select="$lugares_nombrados"/>
+	                      <xsl:value-of select="$separator"/>
+                  <xsl:variable name="lugares_no_nombrados">
+	                          <xsl:value-of select="count(.//tei:rs[@type='place'])"/>
+	                      </xsl:variable>
+	                      <xsl:value-of select="$lugares_no_nombrados"/>
+	                      <xsl:value-of select="$separator"/>
+	               <xsl:variable name="gentilicios">
+	                          <xsl:value-of select="count(.//tei:rs[@type='demonym' or type='ethnonym'])"/>
+	                      </xsl:variable>
+	                      <xsl:value-of select="$gentilicios"/>
+	                      <xsl:value-of select="$separator"/>
+	               <xsl:variable name="palabras_extranjeras">
+					   	                          <xsl:value-of select="count(.//tei:foreign)"/>
+					   	                      </xsl:variable>
+					   	                      <xsl:value-of select="$palabras_extranjeras"/>
+					   	                      <xsl:value-of select="$separator"/>
+					<xsl:variable name="intertextos">
+					   	                          <xsl:value-of select="count(.//tei:rs[@type='meta'])"/>
+					   	                      </xsl:variable>
+					   	                      <xsl:value-of select="$intertextos"/>
+					   	                      <xsl:value-of select="$separator"/>
+					<xsl:variable name="heterotopias">
+					   	                          <xsl:value-of select="count(.//tei:rs[@type='heterotopia'])"/>
+					   	                      </xsl:variable>
+					   	                      <xsl:value-of select="$heterotopias"/>
+					   	                      <xsl:value-of select="$separator"/>
+					 <xsl:variable name="palabras_de_moción">
+					   	                          <xsl:value-of select="count(.//tei:rs[@subtype='motion'])"/>
+					   	                      </xsl:variable>
+					   	                      <xsl:value-of select="$palabras_de_moción"/>
+					   	                      <xsl:value-of select="$separator"/>
+					 <xsl:variable name="geografía">
+					   	                          <xsl:value-of select="count(.//tei:geogFeat)"/>
+					   	                      </xsl:variable>
+					   	                      <xsl:value-of select="$geografía"/>
+					   	                      <xsl:value-of select="$separator"/>
+					 <xsl:variable name="total">
+					   	                          <xsl:value-of select="sum($lugares_nombrados+$lugares_no_nombrados+$gentilicios+$palabras_extranjeras+$intertextos+$heterotopias+$palabras_de_moción+$geografía)"/>
+					   	                      </xsl:variable>
+					   	                      <xsl:value-of select="$total"/>
+                    <xsl:value-of select="$newline"/>
+                </xsl:for-each>
+            
+               
+                 
+            </xsl:result-document> <!--/xsl:for-each-->
+            
+            <xsl:result-document href="xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/csv/stats-perc-obratds.csv">
+            
+           
+                <xsl:text>apartado</xsl:text>
+                <xsl:value-of select="$separator"/>
+                 <xsl:text>lugares_nombrados</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>lugares_no_nombrados</xsl:text>
+                  <xsl:value-of select="$separator"/>
+                 <xsl:text>gentilicios</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>palabras_extranjeras</xsl:text>
+                  <xsl:value-of select="$separator"/>
+                 <xsl:text>intertextos</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>heterotopias</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>palabras_de_moción</xsl:text>
+                 <xsl:value-of select="$separator"/>
+                 <xsl:text>geografía</xsl:text>
+                <xsl:value-of select="$newline"/>
+                
+<xsl:for-each select="//tei:div[@type='apartado']">
+<xsl:variable name="lugares_nombrados" select="count(.//tei:placeName)"/>
+<xsl:variable name="lugares_no_nombrados" select="count(.//tei:rs[@type='place'])"/>
+<xsl:variable name="gentilicios" select="count(.//tei:rs[@type='demonym' or type='ethnonym'])"/>
+<xsl:variable name="palabras_extranjeras" select="count(.//tei:foreign)"/>
+<xsl:variable name="intertextos" select="count(.//tei:rs[@type='meta'])"/>
+<xsl:variable name="heterotopias" select="count(.//tei:rs[@type='heterotopia'])"/>
+<xsl:variable name="palabras_de_moción" select="count(.//tei:rs[@subtype='motion'])"/>
+<xsl:variable name="geografía" select="count(.//tei:geogFeat)"/>
+<xsl:variable name="total" select="sum($lugares_nombrados+$lugares_no_nombrados+$gentilicios+$palabras_extranjeras+$intertextos+$heterotopias+$palabras_de_moción+$geografía)"/>
+                <xsl:variable name="apartado">
+                        <xsl:value-of select="@n"/>
+                    </xsl:variable>
+                    <xsl:value-of select="$apartado"/>
+                    <xsl:value-of select="$separator"/>
+
+	                      <xsl:value-of select="($lugares_nombrados div $total) * 100"/>
+	                      <xsl:value-of select="$separator"/>
+
+	                      <xsl:value-of select="($lugares_no_nombrados div $total) * 100"/>
+	                      <xsl:value-of select="$separator"/>
+
+	                      <xsl:value-of select="($gentilicios div $total) * 100"/>
+	                      <xsl:value-of select="$separator"/>
+
+					   	                      <xsl:value-of select="($palabras_extranjeras div $total) * 100"/>
+					   	                      <xsl:value-of select="$separator"/>
+					
+					   	                      <xsl:value-of select="($intertextos div $total) * 100"/>
+					   	                      <xsl:value-of select="$separator"/>
+					
+					   	                      <xsl:value-of select="($heterotopias div $total) * 100"/>
+					   	                      <xsl:value-of select="$separator"/>
+					 
+					   	                      <xsl:value-of select="($palabras_de_moción div $total) * 100"/>
+					   	                      <xsl:value-of select="$separator"/>
+					 
+					   	                      <xsl:value-of select="($geografía div $total) * 100"/>
+                    <xsl:value-of select="$newline"/>
+                </xsl:for-each>
+            
+               
+                 
+            </xsl:result-document>
+        </xsl:template>
+        
+</xsl:stylesheet>

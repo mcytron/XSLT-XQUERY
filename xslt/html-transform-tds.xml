@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
+
+<xsl:output method="html" omit-xml-declaration="yes" encoding="utf-8" doctype-public="-//W3C//DTD HTML 4.0//EN" doctype-system="http://www.w3.org/TR/html4/strict.dtd"/>
+<xsl:variable name="placeography" select="doc('xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/xml/tds-placeography.xml')"/>
+<xsl:variable name="personography" select="doc('xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/xml/tds-people.xml')"/>
+<xsl:variable name="bibliography" select="doc('xmldb:exist://admin:jeanluc23@45.56.98.26:8080/exist/xmlrpc/db/madrid/xml/tds-works.xml')"/>
+<xsl:variable name="apartados" select="doc('http://45.56.98.26/tds-data/apartados.xml')"/>
+<xsl:variable name="apartado" select="//tei:div[@type ='apartado']"/>
+  <xsl:key name="bookref" match="$bibliography//tei:listBibl/tei:bibl" use="@xml:id"/>
+    <xsl:key name="placeref" match="$placeography//tei:listPlace/tei:place" use="@xml:id"/>
+<xsl:key name="persref" match="$personography//tei:listPerson/tei:person" use="@xml:id"/>
+
+
+      
+     <xsl:template match="/">
+      <html>
+      <head>
+          <style>
+body {font-family: helvetica,arial,sans-serif;font-size:80%}
+h1   {color: black;font-family: helvetica,arial,sans-serif;font-size:90%}
+#snippetinfo    {color: gray;font-size:70%}
+</style>
+      </head>
+            <body>
+                <h1>Lugares, ambientes e información espacial en <i>Tiempo de silencio</i>
+                </h1>
+         <xsl:apply-templates/>
+      </body>
+        </html>
+   </xsl:template>
+ <xsl:template match="//tei:body">
+ 
+
+ <UL>
+
+ <xsl:for-each select="//tei:div[@type ='apartado']">
+
+<xsl:variable name="apartadonum" select="@n"/>
+ 
+                        <li>
+                    <b>Apartado <xsl:value-of select="$apartadonum"/>
+                    </b>
+                    <br/>
+                            <xsl:for-each select="$apartados//row[position() = $apartadonum]/field[@name ='description']">
+                             <xsl:value-of select="text()"/>
+                             </xsl:for-each>
+                </li>
+               <br/>Espacios:        
+                        <ul>
+                         
+                        <xsl:for-each select="tei:div[@type ='setting']">
+                          <!--replace(tokenize(@ana,'\s'),'#','')-->
+                          
+    <xsl:variable name="settingnames" select="tokenize(replace(@ana,'#',''),' ')"/>
+
+    
+                            <li><!--xsl:copy-of select="$settingnames[1]"/-->
+                            <b> <xsl:value-of select="$placeography//tei:place[@xml:id=$settingnames[1]]/tei:name"/>
+                            </b> 
+                            (<xsl:value-of select="@subtype"/>)  
+                            <xsl:if test="$settingnames[2] !=''">
+                             <br/>
+                                <b>
+                                    <xsl:value-of select="$placeography//tei:place[@xml:id=$settingnames[2]]/tei:name"/>
+                                </b> <!--xsl:copy-of select="$settingnames[2]"/--> (<xsl:value-of select="@subtype"/>) 
+                            </xsl:if>
+
+<xsl:if test="$settingnames[3] !=''">
+                        <br/>
+                                <b>
+                                    <xsl:value-of select="$placeography//tei:place[@xml:id=$settingnames[3]]/tei:name"/>
+                                </b> <!--xsl:copy-of select="$settingnames[3]"/--> (<xsl:value-of select="@subtype"/>) 
+                            </xsl:if>
+                                
+                            </li>
+                           
+                            
+                        </xsl:for-each>
+                </ul>
+                       <br/>Otra información espacial:
+                        <ul>
+                         <li>
+                        <b>Lugares nombrados:</b>  <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:placeName,', ')"/>
+                    </li>
+                         
+                <xsl:variable name="placeref" select="distinct-values(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:rs[@type='place']/replace(@ref,'#',''))"/>
+                    <li>
+                        <b>Lugares no nombrados:</b>  
+                    <xsl:apply-templates select="string-join($placeography//tei:listPlace/tei:place[@xml:id=$placeref]/tei:name,', ')"/>
+                    </li>
+                    
+                    
+                         <li>
+                        <b>Gentilicios/etnónimos</b>: <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:rs[@type='demonym'or @type='ethnonym'],', ')"/>
+                    </li>
+ <li>
+                        <b>Palabras extranjeras</b>: <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:foreign,', ')"/>
+                    </li>
+
+
+ <li>
+                        <b>Heterotopias</b>: <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:rs[@type='heterotopia'],', ')"/>
+                    </li>
+  <li>
+                        <b>Palabras geográficas:</b>  <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:geogFeat,', ')"/>
+                    </li>
+  <li>
+                        <b>Palabras de moción:</b>  <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:rs[@subtype='motion' and @type !='heterotopia'],', ')"/>
+                    </li>
+    <li>
+                        <b>Palabras de posición:</b>  <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:rs[@type='position'],', ')"/>
+                    </li>
+</ul>
+                <br/>
+Personas y referencias metaliterarias:
+<ul>
+<xsl:variable name="persref" select="distinct-values(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:rs[@type='person']/replace(@ref,'#',''))"/>
+<li>
+                        <b>Personas nombradas:</b>  <xsl:apply-templates select="string-join(//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:persName,', ')"/>
+                    </li>
+
+<li>
+                        <b>Personas no nombradas: </b> 
+
+
+ <!--xsl:apply-templates select="string-join($personography//tei:listPerson/tei:person[@xml:id=$persref]//tei:name,' ')"  /-->  
+
+   <xsl:apply-templates select="replace(replace(concat(string-join($personography//tei:listPerson/tei:person[@xml:id=$persref]//tei:name, substring(', ', number(2 - (position()) != last()))),' '),', , ,',','),', ,',',')"/>  
+   <!--xsl:apply-templates select="replace(replace(concat(string-join($personography//tei:listPerson/tei:person[@xml:id=$persref]//tei:name, substring(', ', 2 - (position() != last()))),' '),', , ,',','),', ,',',')"/-->  
+   <!--xsl:apply-templates select="$persref"  /-->  </li>
+  
+
+
+
+<xsl:variable name="obraref" select="//tei:div[@n =$apartadonum]/tei:div[@type ='setting']//tei:rs[@type='meta']/replace(@ref,'#','')"/>
+ <li>
+                        <b>Intertextos</b>:  <!--xsl:apply-templates select="$obraref"/-->
+ <xsl:apply-templates select="string-join($bibliography//tei:listBibl/tei:bibl[@xml:id=$obraref]/tei:title,', ')"/>
+                    </li>
+
+                           </ul>
+                <br/>
+                      
+   </xsl:for-each>    
+   </UL>
+</xsl:template>
+ 
+  <!--  <xsl:template match="//tei:div[@type=setting]">
+ <ul>
+    <xsl:variable name="setting">
+                       <li> <xsl:value-of select="@ana"/></li>
+                    </xsl:variable>
+                    </ul>
+
+   </xsl:template>-->
+      <!--<xsl:template match="note[@type='workref']">
+      <xsl:variable name="match" select="."/>
+      <xsl:for-each select="tokenize(.,',')">
+         <xsl:variable name="id-pos" select="position()"/>
+         <xsl:value-of select="."/>
+         
+         <xsl:value-of select="tokenize($match/following-sibling::note[@type='workname'],',')[position() = $id-pos]"/>
+           
+            
+      </xsl:for-each>
+   </xsl:template>-->
+      
+          
+</xsl:stylesheet>

@@ -1,0 +1,72 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/madrid/xql" version="1" owner="admin" group="dba" mode="755" created="2019-11-26T14:53:56.181Z">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="xxx-importcsvgeodata.xq" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:22:16.153Z" modified="2019-11-26T15:22:16.153Z" filename="xxx-importcsvgeodata.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="CREATE-TDS-BIBLIOGRAPHY.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-16T18:01:36.585Z" modified="2020-02-02T21:48:33.782Z" filename="CREATE-TDS-BIBLIOGRAPHY.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="create-all-people.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-24T14:44:56.346Z" modified="2020-01-24T15:11:19.645Z" filename="create-all-people.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="create-all-places.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-24T15:17:11.501Z" modified="2020-01-24T15:17:11.501Z" filename="create-all-places.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="create-all-works.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-24T15:21:00.095Z" modified="2020-01-24T15:21:00.095Z" filename="create-all-works.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="create-tds-works.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-15T19:11:02.828Z" modified="2020-01-16T18:00:24.338Z" filename="create-tds-works.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xxx-INSERTING-SNIPPETS-WORKS.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-16T17:48:27.022Z" modified="2020-01-17T13:15:25.141Z" filename="xxx-INSERTING-SNIPPETS-WORKS.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="TEST-GETSTATS.xql" skip="no" owner="admin" group="dba" mode="755" created="2019-12-20T14:29:26.223Z" modified="2019-12-21T00:10:52.017Z" filename="TEST-GETSTATS.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xxx-INSERTING-PEOPLE-WORKS.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-19T19:25:10.031Z" modified="2020-01-19T19:41:58.098Z" filename="xxx-INSERTING-PEOPLE-WORKS.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xxx-placeography-combinemysqlgeo-tdsplaces.xq" skip="no" owner="admin" group="dba" mode="755" created="2020-01-20T01:27:35.882Z" modified="2020-01-20T01:27:35.882Z" filename="xxx-placeography-combinemysqlgeo-tdsplaces.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xxx-INSERTING-SNIPPETS-PEOPLE.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-04T17:35:53.591Z" modified="2020-01-17T18:37:37.73Z" filename="xxx-INSERTING-SNIPPETS-PEOPLE.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="GETTING-SNIPPETS-WORKS.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-16T17:30:37.996Z" modified="2020-01-17T18:57:51.072Z" filename="GETTING-SNIPPETS-WORKS.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="GETTING-SNIPPETS-PLACES.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-03T20:55:59.838Z" modified="2020-01-17T18:58:06.633Z" filename="GETTING-SNIPPETS-PLACES.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="GETTING-SNIPPETS-PEOPLE.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-10T16:44:51.676Z" modified="2020-01-17T18:58:21.654Z" filename="GETTING-SNIPPETS-PEOPLE.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="CREATE-TDS-PERSONOGRAPHY.xql" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:29:18.731Z" modified="2020-01-11T12:27:11.125Z" filename="CREATE-TDS-PERSONOGRAPHY.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="CREATE-TDS-PLACEOGRAPHY.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-01-03T21:52:18.099Z" modified="2020-01-03T21:52:18.099Z" filename="CREATE-TDS-PLACEOGRAPHY.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="MADRID-STATS.xql" skip="no" owner="admin" group="dba" mode="755" created="2020-02-17T20:21:49.709Z" modified="2020-02-18T18:29:33.012Z" filename="MADRID-STATS.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="savecsvfiletopublicfolder.xq" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:21:01.185Z" modified="2020-02-18T19:49:18.383Z" filename="savecsvfiletopublicfolder.xq" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="xxx-createpersonography.xql" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:28:42.476Z" modified="2019-11-28T17:42:56.629Z" filename="xxx-createpersonography.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="updatetdsplaceography.xql" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:19:35.324Z" modified="2019-12-19T12:31:28.607Z" filename="updatetdsplaceography.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="saveplacesbyobra.xql" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:20:23.772Z" modified="2019-12-19T12:31:50.498Z" filename="saveplacesbyobra.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="createtdsplaces-demonym.xql" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:25:37.34Z" modified="2019-12-19T12:33:03.301Z" filename="createtdsplaces-demonym.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="createtdsplaces-collective.xql" skip="no" owner="admin" group="dba" mode="755" created="2019-11-26T15:26:13.076Z" modified="2019-12-19T12:33:13.979Z" filename="createtdsplaces-collective.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>
