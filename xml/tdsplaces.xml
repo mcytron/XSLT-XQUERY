@@ -1,0 +1,1537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-obratds.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <settingDesc>
+      <listPlace>
+                <place/>
+                    
+                <place xml:id="PLACEPENINSULAIBERICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEILLINOIS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELABORATORIOILLINOIS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMIDWEST">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELABORATORIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMOLINOSQUIJOTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELABORATORIOSPAISESDESARROLLADOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPAISESDESARROLLADOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEEUU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAMUECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPISOSPUBLICOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEAMERICAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMESETA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACERIOMANZANARES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECIELOMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEROMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVALLADOLID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEJUDERIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESIERRAGUADARRAMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZASTOROS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZATOROSVENTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAMPOSFUTBOL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESANTIAGOBERNABEU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESTADIUMMETROPOLITANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACENEEDSLOCATION">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRIDTABERNAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLENUNCIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEBOLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAMAYOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESTATUAFELIPEIII">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETIENDAPANOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESALAFIESTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECINE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONPEDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMUSEOPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECIUDADCUALQUIERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECPUERTASCONVENTOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMESETAPUEBLOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESFERARADIANTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCEL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEORFELINATO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECOMISARIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMANICOMIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEURGENCIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANAPUEBLO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEFILIPINAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASINO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBOCACALLEPROGRESO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNASMALAFAMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONALCOBADORITA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHACHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRIDAIRE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMANCHESTER">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAANTONMARTIN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEXTRARRADIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGLORIETAATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESTACIONATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHOSPITALSANCARLOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHOSPITALGENERAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEUNIVERSIDADCENTRALFACULTADMEDICINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECRIADERORATAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBASURERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHABITATESTORNINOSAZORES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNASATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETIENDASCALLEATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEFARMACIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELABORATORIOSATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETETUAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEINSTITUTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPUEBLOTOLEDANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASASNOCHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARRETERACHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASAMEDICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVENUS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPISOAMADORCOCINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPERRERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVEGATAJO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACERIOTAJO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACERETIRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMONTETABOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONSALON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETROPICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONCOCINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONSALONMECEDORA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECABARET">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETEDANZANTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEAFRICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBOITE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBOSQUESLEJANOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACERASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBOHEMIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELIMOGES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEOCEANIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETASMANIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEIGLUESQUIMAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEAFRICACENTRAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMUNDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLACARTUCHO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEZARAGOZA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALICANTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMERENDEROS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECIUDADPROHIBIDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECOLINASCHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAMUECASSALA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECRIADEROEEUU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMONTONDEBASURA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPINACOTECA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAMUECASCORRAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELUGARESCAZAABORIGENES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELCARABANCHEL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEOTROMUNDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRERACOLOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEOTROSPAISES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNACHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEUROPA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNACONCABEZATORO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAPROGRESO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECABARETTIRSO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMAGDALENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECOMERCIOCALLEMAGDALENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETIENDACALLEMAGDALENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALMACENCALLEMAGDALENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMETROANTONMARTIN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFETERIAANTONMARTIN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFECANTANTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEATOCHACUESTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIODELASLETRAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACENEPTUNO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANAPROVINCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELCERVANTES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPIRALES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMUNDOLIBROCABALLERIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLECERVANTES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEIGLESIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECIBELES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGRANVIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEALCALA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEORECOLETOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHOTELES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFEGIJON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEONDARRETA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFEGIJONTERTULIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFEGIJONESPACIOLIBRE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFEGIJONURINARIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEGIPTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROFUNDOSUREEUU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELIBRERIABUCHHOLZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESTUDIOALEMAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMINISTERIOEJERCITO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEINFANTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESTUDIOCUADROROSAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEDACHAU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAMARAGAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    
+                    <place xml:id="PLACECALLESCERCAESTUDIOALEMAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECIUDADPOSAPOCALIPTICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPAISAJECUADROPINTORALEMAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGHETTOJUDIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETASCACALLEINFANTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASAMATIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANMARCOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFECALLESANMARCOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCHUECA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONALCOBAPEDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPARIS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEFRANCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANMARCOS17">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULOLUISA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANMARCOS19">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANMARCOS21">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANMARCOS13">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULOLUISASALON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULOLUISASALAESPERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULOALCOBA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEJERUSALEN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELAGUNAESTIGIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELASLANDAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEEUUVIEJOOESTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARINDICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEINFIERNO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULOCOCINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACENOCHEMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELUGARMARGINALIZADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEREINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESEVILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAMINOINTELECTUAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONALCOBAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONALCOBADORITA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPISCINASILOE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGRUTALOURDES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELOURDES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACERIOJORDAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVIADUCTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECATEDRALALMUDENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPALACIOREAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETOLEDOPROV">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECANALISABELII">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACENOCHEMADRILENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVILLAROSA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLETUDESCOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEECHEGARAY">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVERICUETOSCHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLABAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEQUIROFANOSSUECOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAQUIROFANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVALENCIAPROVINCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECIUDADESNORTEAMERICANAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAMUECASANTESALA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAOTRA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEAGUADUCHORETIRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETRAYECTORIAINVESTIGADORA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETRAYECTORIAMEDICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHIPOTETICACONSULTAPEDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLASMARGINALES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAMUECASCOCINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLAMUECASDORMITORIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESTANQUERETIRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPOZOCHABOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECINESDEBARRIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHAPENSIONCASAMATIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASAMATIASSALON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASAMATIASALCOBA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECUADROAQUELARRE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMUSEOLAZARO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEREALIDADSUBMASCARINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEELEFANTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEELEFANTAGRUTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBHUBANESHWAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETEATROBARCELO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALEMANIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEANDALUCIABAJA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCHINO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARSELLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARCELONA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBOSQUEHARZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEISLASCAROLINAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEUNIVERSO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARCELOSOTANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARCELOPLANTAMEDIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARCELOPLANTASUPERIOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARCELOBAILECRIADAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAMPOSELISEOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEUNIVERSIDADMARBURGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHACHABOLACIVILIZACION">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALDEARICARDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEOASISBEDUINO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEFOSACOMUN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEOSARIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOESTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESOL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESISTEMASOLAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHORMIGUERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECOLMENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETIERRASANTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULOSECONOMICOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEJOYESLAVA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMONUMENTAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGALICIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEASTURIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPISOAMADOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGLORIETACUATROCAMINOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETRANVIA43">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVERICUETOSCUATROCAMINOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPISOSHEREDADOSOBREROS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANAMEDITERRANEO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMALAGA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPISOSIMILIANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPISOSIMILIANOALICANTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELIBREROSSANBERNARDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANBERNARDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULOSALON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULORETRETE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSTIBULODENTROESPEJO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHACARCELPARAABAJO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELSOTANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELCELDAPEDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELCELDAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELCORREDOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGALLINERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELKINDER">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELCELDACOMUN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPARTYEEUU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMUNDOEXTRACARCELARIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLECARRETAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTASOL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECATEDRALESGOTICAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPALACIOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASAMISERICORDIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEAUSTRALIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMADISONSQUAREGSARDEN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBUFETEABOGADOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASAABOGADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESUIZA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEYORK">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECUEVAPLATON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARMONTERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMONTERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPAISESSUBDESARROLLADOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECUARTELES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETUMBAFLORITA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHACEMENTERIOCARCEL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECLINICASDEGUARDIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMANCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELCELDARICARDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPROCESIONCORPUS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEORIGENEJERCITO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETIERRA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECOLINACIENCIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEFRANKFORT">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACERIOMENO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEUNIVERSIDADGOETHE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETASCACERCAINSTITUTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEASTORGA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETIENDAEULOGIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEPEZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFETERTULIAVIEJOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVERBENABENFICALUGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELUGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECINECALLAO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETEATROREVISTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECINEDELBARRIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESUEZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBIBLIOTECASESPANOLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRIDANTIGUO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVERBENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENSIONCUARTORECIBO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEZONADESUELOMEJOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBAILESUBTERRANEO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEAFRICASUBSAHARIANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPRINCIPEPIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEDESTINOPEDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMESETAMONTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESUECIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANAMEDIEVAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBUREBA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETRENMADRIDESCORIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHAPRINCIPEPIOELESCORIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAYAANATOLIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEANATOLIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALTAMAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESTRATOSFERATIERRA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHIPOTETICACONSULTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESIERRAMORENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMONASTERIOELESCORIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESCORIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPARRILLASANLORENZO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+             
+                    <place xml:id="PLACECEMENTERIOESTEDEPOSITO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOESTECAPILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOESTEOFICINAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                <place xml:id="PLACESTUDIOALEMAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASINOMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHAAMADORCASAINSTITUTOCHABOLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECIUDADESCONCATEDRAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECATEDRALNOEXISTENTEMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALCAZARES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECHICOTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEJONESDELCENTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARMEDITERRANEO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASTILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEHOSPITALESEEUU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEDOCTORCORTEZO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                   
+                <place xml:id="PLACECINEIDEAL">
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARCHAPENSIONCARCEL">
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECINESGRANVIA">
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESOLESPANA">
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+                     </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

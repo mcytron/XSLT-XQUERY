@@ -1,0 +1,138 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/madrid/xml" version="1" owner="admin" group="dba" mode="755" created="2019-11-26T14:50:14.365Z">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="tdspeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-24T14:41:43.497Z" modified="2020-01-24T15:40:11.446Z" filename="tdspeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="BIBLIOGRAPHY-BIBLIO.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-16T17:28:24.581Z" modified="2020-02-17T20:15:09.902Z" filename="BIBLIOGRAPHY-BIBLIO.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tds-works.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-16T17:56:58.825Z" modified="2020-02-02T21:49:34.249Z" filename="tds-works.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lpiplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-11T16:11:17.69Z" modified="2020-01-19T18:05:04.808Z" filename="lpiplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="PLACEOGRAPHY-BIBLIO.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-19T15:32:10.279Z" modified="2020-01-20T00:37:53.5Z" filename="PLACEOGRAPHY-BIBLIO.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tdsplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:11:09.433Z" modified="2020-01-24T15:32:36.903Z" filename="tdsplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tdsplaces-people.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:11:09.287Z" modified="2020-01-24T00:03:02.017Z" filename="tdsplaces-people.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tdsplaces-obras.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:11:09.15Z" modified="2020-01-24T00:03:01.655Z" filename="tdsplaces-obras.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tdsplaces-demonyms.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:11:09.017Z" modified="2020-01-24T00:03:01.396Z" filename="tdsplaces-demonyms.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tdsplaces-collectives.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:11:08.873Z" modified="2020-01-24T00:03:02.103Z" filename="tdsplaces-collectives.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lpipeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:46:54.966Z" modified="2020-01-24T14:57:37.734Z" filename="lpipeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tds-placeography.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:11:08.427Z" modified="2020-02-01T23:58:17.288Z" filename="tds-placeography.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lmipeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:47:29.006Z" modified="2020-01-24T14:57:51.104Z" filename="lmipeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ldepeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:47:51.464Z" modified="2020-01-24T15:04:58.781Z" filename="ldepeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tds-people.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:11:08.127Z" modified="2020-02-02T12:16:21.708Z" filename="tds-people.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ldbpeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:48:09.446Z" modified="2020-01-24T15:04:58.805Z" filename="ldbpeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lctpeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:48:43.523Z" modified="2020-01-24T14:58:46.651Z" filename="lctpeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lbupeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:49:01.7Z" modified="2020-01-24T15:04:58.732Z" filename="lbupeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="inspeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:49:21.988Z" modified="2020-01-24T15:04:58.735Z" filename="inspeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="horpeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-12T13:49:41.733Z" modified="2020-01-24T15:04:58.777Z" filename="horpeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="stats-madrid.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-02-17T20:17:09.493Z" modified="2020-02-18T18:43:13.315Z" filename="stats-madrid.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ldbplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-11T19:08:09.438Z" modified="2020-01-19T18:07:33.022Z" filename="ldbplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="PERSONOGRAPHY-BIBLIO.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-12T02:14:30.024Z" modified="2020-01-17T19:14:30.39Z" filename="PERSONOGRAPHY-BIBLIO.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="horplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-28T19:29:08.157Z" modified="2020-01-19T18:02:45.092Z" filename="horplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lctplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-28T19:29:33.814Z" modified="2020-01-19T18:08:39.87Z" filename="lctplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="insplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-28T19:29:52.654Z" modified="2020-01-19T18:10:58.175Z" filename="insplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lbuplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-28T19:30:26.388Z" modified="2020-01-19T18:09:56.269Z" filename="lbuplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ldeplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-28T19:30:51.045Z" modified="2020-01-19T18:07:01.041Z" filename="ldeplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="esmworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:52:19.867Z" modified="2020-01-24T15:20:18.552Z" filename="esmworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lmiplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-28T19:31:19.756Z" modified="2020-01-19T18:05:44.648Z" filename="lmiplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="horworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:52:35.36Z" modified="2020-01-15T21:53:04.67Z" filename="horworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="insworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:52:50.077Z" modified="2020-01-15T21:53:15.115Z" filename="insworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lbuworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:53:01.988Z" modified="2020-01-15T19:39:42.421Z" filename="lbuworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lctworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:53:21.948Z" modified="2020-01-15T19:39:46.914Z" filename="lctworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ldbworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:53:31.344Z" modified="2020-01-15T21:53:35.859Z" filename="ldbworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="ldeworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:53:46.606Z" modified="2020-01-15T21:53:41.994Z" filename="ldeworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lmiworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:53:55.194Z" modified="2020-01-15T19:40:00.223Z" filename="lmiworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="lpiworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:54:15.026Z" modified="2020-01-15T19:40:04.436Z" filename="lpiworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="tdsworks.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-15T18:54:39.429Z" modified="2020-01-24T00:02:02.027Z" filename="tdsworks.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="esmplaces.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-19T14:17:55.382Z" modified="2020-01-24T15:15:34.078Z" filename="esmplaces.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="esmpeople.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-12-19T14:18:51.053Z" modified="2020-01-24T15:04:58.852Z" filename="esmpeople.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="list-of-works-people.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-25T23:00:52.508Z" modified="2020-01-29T21:08:20.253Z" filename="list-of-works-people.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="list-of-works-places.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-25T23:01:12.768Z" modified="2020-01-29T21:08:47.793Z" filename="list-of-works-places.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="list-of-works-works.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-01-25T23:01:42.524Z" modified="2020-01-29T21:08:37.057Z" filename="list-of-works-works.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.xml" skip="no" owner="admin" group="dba" mode="644" created="2019-11-26T15:09:37.535Z" modified="2019-11-26T15:09:37.535Z" filename="index.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

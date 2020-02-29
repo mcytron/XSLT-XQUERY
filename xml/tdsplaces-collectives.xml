@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform2-collectives.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+                <listPerson>
+             
+                <personGrp xml:id="COLGITANAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+
+            
+            <personGrp xml:id="COLRATAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESPANOLES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEPOBRE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLINTELECTUALES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLINVESTIGADORES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLINVESTIGADORESNOESPANOLES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTOROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERESMENOPAUSICAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPERROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLRUBIASMIDELUESTICAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGIGANTESQUIJOTE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFANTASMAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSERESHUMANOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPOLICIA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLJUECES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFAMILIAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCIENTIFICOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMASTERRACE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLNEEDSCOLLECTIVE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGATOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPOLITICOSMADRID">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUCHACHAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFAMILIAREAL">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMADRILENOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTERICA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTENORDICA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESCRITORESTEATRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSOLDADOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPAJAROSSUICIDAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBORRACHOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESTUDIANTES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLENANOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMADRES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCERILLERAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCIEGOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPEATONES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMADRILENOSCLASEBAJA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLDELINCUENTES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEPERDIDA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEPUEBLO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTECHABOLAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMILITARES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHIPOTETICOSHIJOSABUELA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMILITARESSIFILIS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTAGALA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMOROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTOREROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTELAPENSION">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHOMBRES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLAMIGOSNOVIODORA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEHONESTA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSOCIEDADESPANOLA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVENDEDORESAMBULANTES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGUARDIASTRAFICO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMENDIGOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLJOVENES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBASUREROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESTORNINOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBENEFICIARIOSEGURIDADSOCIAL">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEQUENOESDEMADRID">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLDOCTORANDOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCOMPANEROSGUERRAABUELO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHOMBRESSOLDADOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPRETENDIENTESPEDRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLAMIGOSPEDRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLINFANTAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPAREJAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERESMADURAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPARCAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERESESPANOLAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFILOSOFOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMANCHEGOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLNINOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTETOLEDANA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVIEJOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHEMBRAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLABORIGENES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEPOSAPOCALIPTICA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTECIUDAD">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEABORIGENE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCOREANOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEBLANCA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTENEGRA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEAFRICANA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERESNEGRAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHOMBRESNEGROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPROSTITUTAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGITANOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTELACAFECANTANTE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPERSONAJESCERVANTES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBURGUESES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESCRITORES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTERTULIACAFEGIJON">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBANISTAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPROVINCIANO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHOMOSEXUALES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLACTORES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLALEMANES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTESCAFEGIJON">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCAMAREROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSERENOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLDAMASDESNUDASCUADRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVICTIMASCAMARAGASHOLOCAUSTO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTECUADROPINTORALEMAN">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLNAZIS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLJUDIOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMASONES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLJESUITA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCENTROEUROPEOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTENOCTURNA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLATLETAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBAILARINES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTELAPROSTIBULO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTELAPROSTIBULORECHAZADOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTRASNOCHADORES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLANCIANAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVIEJAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUSULMANES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPERSONALMEDICO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLAQUELARRE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLALBANILES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLARQUITECTOSSUECOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPERSONALMEDICOSUECO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLASISTENTESABORTONOFAMILIA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPACIENTESPAISESDESARROLLADOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFAMILIAMUECAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTESTIGOSABORTO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCOMADRES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTELAHIPOTETICAPEDRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCRIMINALES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLINFRASOCIEDADES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGITANASVIEJAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERESNOPROSTITUTAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLOWN">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPERSONAJESAQUELARRE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLABORTOSAQUELARRE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMURCIELAGOSAQUELARRE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPUEBLOHINDU">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCASTASINDIA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLANELIDA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLRAE">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCASTATORERA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLEQUITES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBRUJAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBUCOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLNINOSMUERTOSPOSGUERRA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBAILECRIADAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBAILEBARCELOMEDIO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPUBLICOMAESTRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSEPULTUREROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFAMILIAMATIAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBEDUINO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPOBRES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESPECIMENESEXPERIMENTA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLOBREROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUERTOSCEMENTERIO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBRIGADASCEMENTERIO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMEDICOSFORENSES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+    
+                <personGrp xml:id="COLHURIESVIRGENES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLREPTILESCIEGOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCOCINERASPROSTIBULO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPEATONESMADRILENOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPROCESIONARIAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="CONATURALISTAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLENTOMOLOGOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLDECORADORPROSTIBULO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMEDICOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGUARDIASCARCEL">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPRISIONEROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPRISIONEROSHIJOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEPAISESDESARROLLADOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLAMERICANOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLINVESTIGADORESEEUU">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTETONTA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTESPEDRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTURISTASESPANA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMAJAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCONOCIDOSMATIAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVENDEDORASGRIFA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFUMADORESGRIFA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLAMIGASRICARDA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCHORIZOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTERTULIANTESVIEJOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLINCONCIENTECOLECTIVO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLACTORESREVISTA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPUBICOTEATRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMANOLOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMINISTROSCARLOSIII">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESPANOLESDOSMAYO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCORISTASREVISTA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUSICOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSINDICATOMUSICOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGUARDIACIVIL">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEVERBENA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLBARQUILLERO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVENDEDORESVERBENA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLDIOSESVENGADORES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLAMIGOSVERDADEROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLFORENSES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTIOMIGUEL">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLLIEBRES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPERDICES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSUFRAGISTASINGLESAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLANDALUCES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVIRGENES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMOZASCASTELLANAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESCLAVOSTURCOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLEUNUCOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLNAVEGANTESMAR">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEIBERA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPAISESDESARROLLADOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLANIMALESSOCIALESCONSTRUCTORES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHORMIGAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLABEJAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCASTORES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+
+                <personGrp xml:id="COLSOCIOLOGOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLESPANOLESPOBRES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLPAISESSUBDESARROLLADOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLTRIBUSAFRICACENTRAL">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLHOTENTOTES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLANIMALES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+            <personGrp xml:id="COLBOTONESHOTELES">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLAMIGASHERMANAMATIAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEELEFANTA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCENTAUROS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLREYESNORDICOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERESRICAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTEAPROSTIBULO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLSIMIOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLVAQUEROEEUU">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTELABARMONTERA">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLCLIENTESABOGADOMATIAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLMUJERESANGLOSAJONAS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLGENTEPAISESRICOS">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+                <personGrp xml:id="COLACTORESTEATRO">
+                    <note>NEW-COLLECTIVE</note>
+                    <bibl>OBRATDS</bibl>
+                </personGrp>
+            <personGrp xml:id="COLHABSBURGOS"><note>NEW-COLLECTIVE</note><bibl>OBRATDS</bibl></personGrp><personGrp xml:id="COLPROSTITUTAS?"><note>NEW-COLLECTIVE</note><bibl>OBRATDS</bibl></personGrp></listPerson>
+            
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-ins-people.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+                <listPerson>
+                <person/>
+            <person xml:id="PERSGABRIELPARDOLAGE"><note>NEW-PERSON</note><bibl>OBRAINS</bibl></person><person xml:id="PERSSANISIDRO"><note>NEW-PERSON</note><bibl>OBRAINS</bibl></person><person xml:id="PERSGOYA"><note>NEW-PERSON</note><bibl>OBRAINS</bibl></person><person xml:id="PERSALEXANDREDUMAS"><note>NEW-PERSON</note><bibl>OBRAINS</bibl></person><person xml:id="PERSAPOLO"><note>NEW-PERSON</note><bibl>OBRAINS</bibl></person><person xml:id="PERSDUQUEALBARES"><note>NEW-PERSON</note><bibl>OBRAINS</bibl></person></listPerson>
+            
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

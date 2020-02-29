@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-obralct.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <settingDesc>
+      <listPlace>
+              <place/>
+                <place xml:id="PLACEPALOMABAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEHIPOTETICOCAMINO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEDISPENSARIOSANFRANCISCO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEPALOMAGASOLINERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACELARADIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTEVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEJERICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEHIPOTETICOCAMINOBAJOALTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTEVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLASPALOMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLASPALOMA5">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEPALOMACRUCE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECOCHEMARIANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEFUENTERRABIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEAVENIDACIUDADBCN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECASAARRABALAVENIDACIUDADBCN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEMETROPUENTEVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECINEPUENTEVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEBORDESCIUDAD">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECENTROMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEEEUUVIEJOOESTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEPALOMABARGASOLINERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEJAEN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECARBONERIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECHABOLASPALOMABASURA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEHOSPITALNINOJESUS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACENEEDSLOCATION">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOESTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECASAMARIANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEESTUDIOPANCHO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEAMERICAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEMETROMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECIBELES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESINNOMBRE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEPUESTOTABACO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEBOCACALLES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACELUGARESPOBRESESPANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEINFRAVIVIENDAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEBPALOMACALLECASA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                    <place xml:id="PLACEULTIMASCASAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALCT</bibl>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+                     </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

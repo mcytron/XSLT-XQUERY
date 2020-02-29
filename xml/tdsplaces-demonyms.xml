@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform2-demonyms.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <listPlace>
+                    
+                    <place xml:id="PLACEPENINSULAIBERICA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPAISESNORDICOS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMIDWEST">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESUECIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEINGLATERRA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETOLEDO">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEILLINOIS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEFRANCIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEFILIPINAS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEULTRAMARINO">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEANDALUCIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRID">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPARIS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEEUU">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALASKA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBOTSWANA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACENAMIBIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMEDITERRANEO">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACELAMANCHA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMARTE">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVENUS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACETURQUIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGENOVA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECASTILLA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEUROPA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESUIZA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEALEMANIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESUABIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVALHALLA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEISRAEL">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECENTROEUROPA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEBURDEOS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGRECIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEGALICIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEVALENCIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACENEEDSLOCATION">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEASIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECUBA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEAFRICA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEDELFOS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEASTURIAS">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPOMPEYA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACECRETA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEROMA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEITALIA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEEGIPTO">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACESEVILLA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEPAISVASCO">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMAGREB">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                <place xml:id="PLACECHINA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+                    <place xml:id="PLACEMESETA">
+                        <note>NEW-PLACE-DEMONYM</note>
+                        <bibl>OBRATDS</bibl>
+                    </place>
+
+                <place xml:id="PLACEANTIGUAROMA"><note>NEW-PLACE-DEMONYM</note><bibl>OBRATDS</bibl></place><place xml:id="PLACETROPICO"><note>NEW-PLACE-DEMONYM</note><bibl>OBRATDS</bibl></place><place xml:id="PLACEELEFANTA"><note>NEW-PLACE-DEMONYM</note><bibl>OBRATDS</bibl></place><place xml:id="PLACEMANCHA"><note>NEW-PLACE-DEMONYM</note><bibl>OBRATDS</bibl></place><place xml:id="PLACETERRITORIOINUIT"><note>NEW-PLACE-DEMONYM</note><bibl>OBRATDS</bibl></place><place xml:id="PLACEANTIGUAGRECIA"><note>NEW-PLACE-DEMONYM</note><bibl>OBRATDS</bibl></place><place xml:id="PLACEMUNDOCELTA"><note>NEW-PLACE-DEMONYM</note><bibl>OBRATDS</bibl></place></listPlace>
+            </settingDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

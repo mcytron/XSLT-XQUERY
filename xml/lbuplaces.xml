@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-obralbu.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <settingDesc>
+      <listPlace>
+                <place/>
+                <place xml:id="PLACEMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEARROYOEMBAJADORES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECASADONACASIANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMESONEROROMANOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    
+                    <place xml:id="PLACECALLEDESENGANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLETUDESCOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLERELOJ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLECARRETAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEESTACIONATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEALMAZAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERIODUERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEALCUNEZA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEALCALA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEJARDINES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMALASANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEORIENTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEAMANIEL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZADESCALZAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEAGUILA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERIOMANZANARES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERONDASEGOVIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAMPILLOGILIMON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBUNOLERIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAORIENTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVIADUCTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEROSARIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEGETAFE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVILLAVERDE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOSANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTAMOROS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPRINCIPEPIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEFUENTERONDATOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERONDATOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEEMBAJADORES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOACACIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECASACABRERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLECERES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECASABLANCA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOYESERIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEDEPOSITOJUDICIALCADAVERES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEDEHESACANAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEDEHESAARGANZUELA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEDEPOSITOCABALLOSPADRES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOCANAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAPENUELAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACENEEDSLOCATION">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECORRALON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                   
+                    <place xml:id="PLACEPLAZAPROGRESO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOPONTONES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCAMBRONERAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOINJURIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOIMPERIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAMINOSANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEDOCTRINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTESEGOVIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                   
+                    <place xml:id="PLACESIERRAGUADARRAMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVENTASALCORCON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEALCORCON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAMPAMENTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVENTASCAMINOANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAMINOANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOPENUELAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLECHOPO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZACASCORRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERIBERACURTIDORES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNABLASA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEQUINTAGOYA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPARIS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECIRCOEMPERATRIZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECENTROAMERICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEYUCATAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEMEXICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACETAMPICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACENUEVAORLEANS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERIOMISSISSIPPI">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEEEUU">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACENUEVAYORK">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBOSTON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    
+                    <place xml:id="PLACESVERBENASANANTONIOFLORIDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACESANANTONIOFLORIDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVERBENAPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEENCOMIENDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTASOL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMONTERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAFEMARINA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEFABRICAGAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTAEMBAJADORES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTAPENUELAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECEUTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESEGOVIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEAMPARO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEAGUILA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECARMEN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZACEBADA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANTAMARGARITA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEHORNOMATA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAMONCLOA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERETIRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAMPOMORO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVISTILLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEIGLESIAALMUDENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPALACIOREAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOPINTORROSALES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECASACAMPO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECARRETERAANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCUATROCAMINOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTEVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEGUINDALERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVENTORROAGAPITO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECARABANCHEL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEARROYOABRONIGAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEELIPA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVENTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCONCEPCION">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPROSPERIDAD">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACETETUAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTAHIERRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECENTROMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECERROSANBLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERONDAATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECERROSANBLAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECERROANGELES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEMUSEOVELASCO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERONDAVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOPACIFICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOALFONSOXII">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOCOCHES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACELONDRES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEOCEANOPACIFICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEFILIPINAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEARCHIPIELAGOMAGALLANES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEMANILA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEINGLATERRA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNAINJURIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOINJURIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERETIROANGELCAIDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEOBERVATORIOMETEOROLOGICO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESANMARCOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOCASTELLANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECIBELES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEAUSTRALIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEVENTASCARRETERAANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOOCHOHILOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEESCUELAVETERINARIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEMERENDEROMANIGUA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIODONACARLOTA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEODELICIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNAPICOPANUELO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAMPILLOMUNDONUEVO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPICOPANUELO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOESTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZATOROSFUENTEBERRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACETEATROAPOLO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEBARQUILLO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAREY">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECIRCOPRICE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECONVENTOTRINITARIOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEDEPOSITOAGUA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEORECOLETOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMANCEBOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEBAILEN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEFERRAZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERETIROPALACIOCRISTAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECUARTELMONTANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOFLORIDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOMELANCOLICOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEERMITAVIRGENPUERTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOVIRGENPUERTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZASANMARCIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAMOSTENSES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACERIOLOZOYA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEALCALAHENARES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECAMINOARAVACA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEARAVACA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECARRETERAEXTREMADURA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEEXTREMADURA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECONFESIONARIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOBOMBILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEARENAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAMAYOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                <place xml:id="PLACECALLEMALDONADAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAMAYORALMAZAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEFRONTON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEKERMESSERASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEAMERICASRASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACEANTIGUOMATADERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                    <place xml:id="PLACETRESCHOZAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRALBU</bibl>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+                     </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

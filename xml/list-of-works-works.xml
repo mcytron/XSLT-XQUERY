@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-all-works.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+<listBibl>
+<bibl>
+		<field name="id">1</field>
+		<field name="workref">OBRATDS</field>
+		<field name="workname">Tiempo de silencio</field>
+		<field name="workauthor">Luis Martín-Santos</field>
+		<field name="persref">PERSLUISMARTINSANTOS</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+<bibl>
+		<field name="id">11</field>
+		<field name="workref">OBRAESM</field>
+		<field name="workname">Escenas matritenses</field>
+		<field name="workauthor">Mesonero Romanos</field>
+		<field name="persref">PERSMESONEROROMANOS</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+
+<bibl>
+		<field name="id">2</field>
+		<field name="workref">OBRALMI</field>
+		<field name="workname">La misericordia</field>
+		<field name="workauthor">Benito Pérez Galdós</field>
+		<field name="persref">PERSGALDOS</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+	
+	
+	<bibl>
+		<field name="id">3</field>
+		<field name="workref">OBRALDE</field>
+		<field name="workname">La desheredada</field>
+		<field name="workauthor">Benito Pérez Galdós</field>
+		<field name="persref">PERSGALDOS</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+	<bibl>
+		<field name="id">4</field>
+		<field name="workref">OBRALBU</field>
+		<field name="workname">La busca</field>
+		<field name="workauthor">Pío Baroja</field>
+		<field name="persref">PERSBAROJA</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+	<bibl>
+		<field name="id">5</field>
+		<field name="workref">OBRALCT</field>
+		<field name="workname">La conciencia tranquila</field>
+		<field name="workauthor">Carmen Martín Gaite</field>
+		<field name="persref">PERSCARMENMARTINGAITE</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+	<bibl>
+		<field name="id">7</field>
+		<field name="workref">OBRAINS</field>
+		<field name="workname">Insolación</field>
+		<field name="workauthor">Emilia Pardo Bazán</field>
+		<field name="persref">PERSPARDOBAZAN</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+	<bibl>
+		<field name="id">8</field>
+		<field name="workref">OBRALPI</field>
+		<field name="workname">La Piqueta</field>
+		<field name="workauthor">Antonio Ferres</field>
+		<field name="persref">PERSANTONIOFERRES</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+	<bibl>
+		<field name="id">9</field>
+		<field name="workref">OBRALDB</field>
+		<field name="workname">Luces de Bohemia</field>
+		<field name="workauthor">Ramón del Valle-Inclán</field>
+		<field name="persref">PERSVALLEINCLAN</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+
+	
+	<bibl>
+		<field name="id">21</field>
+		<field name="workref">OBRAHOR</field>
+		<field name="workname">La horda</field>
+		<field name="workauthor">Blasco Ibáñez</field>
+		<field name="persref">PERSBLASCOIBANEZ</field>
+		<field name="worktei">1</field>
+		<field name="workcountry">PLACEESPANA</field>
+		<field name="worklanguage">ES</field>
+	</bibl>
+                </listBibl>
+	</sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <p/>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

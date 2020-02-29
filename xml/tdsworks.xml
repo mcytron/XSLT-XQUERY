@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-tds-works.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <bibl/>
+                <bibl xml:id="OBRARETRATORAMONCAJAL">OBRATDS</bibl>
+                    <bibl xml:id="OBRAJORGEMANRIQUECOPLAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRAFRASEHENRIIV">OBRATDS</bibl>
+                    <bibl xml:id="OBRAQUIJOTE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAREGENTA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAPROLOGOLIBRODEPOEMASLORCA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHISTORIAFELIPEIIESCORIAL">OBRATDS</bibl>
+                    <bibl xml:id="OBRAESPANAINVERTEBRADA">OBRATDS</bibl>
+                    <bibl xml:id="OBRACOMMEDIADELLARTE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAESTATUAFELIPEIII">OBRATDS</bibl>
+                    <bibl xml:id="OBRANEEDSOBRA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMENINAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRAVILLERADIEUSE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMITOLOGIALUCINA">OBRATDS</bibl>
+                    <bibl xml:id="OBRASOLEDADPRIMERA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAPERITOENLUNAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRARETRATOAVAGARDNER">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMITOSISIFO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMITOLOGIAVEDICA">OBRATDS</bibl>
+                    <bibl xml:id="OBRADIABLOCOJUELO">OBRATDS</bibl>
+                    <bibl xml:id="OBRABIBLIA">OBRATDS</bibl>
+                    <bibl xml:id="OBRACUADROSPINACOTECA">OBRATDS</bibl>
+                    <bibl xml:id="OBRASOULSOFBLACKFOLK">OBRATDS</bibl>
+                    <bibl xml:id="OBRAUROBOROS">OBRATDS</bibl>
+                    <bibl xml:id="OBRASLIBROSCABALLERIA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAPERSILESSIGISMUNDA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAULTRAISMO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAGREGUERIAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRAJRJPIEDRACIELO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAULYSSES">OBRATDS</bibl>
+                    <bibl xml:id="OBRAFAULKNER">OBRATDS</bibl>
+                    <bibl xml:id="OBRABAJORREALISMO">OBRATDS</bibl>
+                    <bibl xml:id="OBRACUADROSPINTORALEMAN">OBRATDS</bibl>
+                    <bibl xml:id="OBRACUADRODAMASROSADAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRALITURGIACATOLICA">OBRATDS</bibl>
+                    <bibl xml:id="OBRASONETOARGENSOLA">OBRATDS</bibl>
+                    <bibl xml:id="OBRANEOEXPRESIONISTA">OBRATDS</bibl>
+                    <bibl xml:id="OBRACELESTINA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMITOLOGIAGRIEGA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHISTORIAANTIGUAROMA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHORACIOODAII">OBRATDS</bibl>
+                    <bibl xml:id="OBRAEDIPOREY">OBRATDS</bibl>
+                    <bibl xml:id="OBRATRADICIONDHARMICA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAARTEPEDROSIRENA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAODISEA">OBRATDS</bibl>
+                    <bibl xml:id="OBRACABALA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMIENTRAAGONIZO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAULYSSES">OBRATDS</bibl>
+                    <bibl xml:id="OBRAILIADA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAAQUELARRE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAAQUELARRE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAKAMASUTRA">OBRATDS</bibl>
+                    <bibl xml:id="OBRATOMASAQUINO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAREBELIONMASAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMEDITACIONESQUIJOTE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHISTORIASIETENINOSECIJA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAFAUSTO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAGORIGORI">OBRATDS</bibl>
+                    <bibl xml:id="OBRAZOROASTRISM">OBRATDS</bibl>
+                    <bibl xml:id="OBRADIVINACOMEDIA">OBRATDS</bibl>
+                    <bibl xml:id="OBRATEMANUESTROTIEMPO">OBRATDS</bibl>
+                    <bibl xml:id="OBRADOSGRANDESMETAFORAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRADESHUMANIZACIONARTE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAARBOLCIENCIABAROJA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAAQUELARREPOSTER">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHAMLET">OBRATDS</bibl>
+                    <bibl xml:id="OBRAJARDINDELICIAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRADECAMERON">OBRATDS</bibl>
+                    <bibl xml:id="OBRAFREUD">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMITOLOGIAROMANA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAIMAGENSANTO">OBRATDS</bibl>
+                    <bibl xml:id="OBRACORAN">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMITOLOGIA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMOTHERNEUMANN">OBRATDS</bibl>
+                    <bibl xml:id="OBRACUADROSPROSTIULO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAENEIDA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAGULIVER">OBRATDS</bibl>
+                    <bibl xml:id="OBRACATEQUISMOCATOLICO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHIPOTETICODIBUJOCELDA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMINOTAURO">OBRATDS</bibl>
+                    <bibl xml:id="OBRABORGESMINOTAURO">OBRATDS</bibl>
+                    <bibl xml:id="OBRATENEBRUESEAFFAIRE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAREPUBLICAPLATON">OBRATDS</bibl>
+                    <bibl xml:id="OBRAARTEABSTRACTO">OBRATDS</bibl>
+                    <bibl xml:id="OBRABECQUER">OBRATDS</bibl>
+                    <bibl xml:id="OBRAEINSTEIN">OBRATDS</bibl>
+                    <bibl xml:id="OBRAPELICULA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMAJADESNUDA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHISTORIA1814ABSOLUTISTAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRACUADROWINTERHALTER">OBRATDS</bibl>
+                    <bibl xml:id="OBRACUADRODOSDEMAYO">OBRATDS</bibl>
+                    <bibl xml:id="OBRACUADROTRESDEMAYO">OBRATDS</bibl>
+                    <bibl xml:id="OBRALAMACARENA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAESCULTURASANGELES">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMADRIDAUGUSTINLARA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAENTIERROCONDEDEORGAZ">OBRATDS</bibl>
+                    <bibl xml:id="OBRABURLADORSEVILLA">OBRATDS</bibl>
+                    <bibl xml:id="OBRAREFRAN">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMITODEFLORINDALACAVA">OBRATDS</bibl>
+                    <bibl xml:id="OBRALIBRODANIEL">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHOMBRELOBO">OBRATDS</bibl>
+                    <bibl xml:id="OBRAPROTAGORAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHENRYIV">OBRATDS</bibl>
+                    <bibl xml:id="OBRAPOLICIACASIMENON">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMORADAS">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHISTORIAEUNUCOSTURCOS">OBRATDS</bibl>
+                    <bibl xml:id="OBRATDS">OBRATDS</bibl>
+                    <bibl xml:id="OBRAHISTORIASANLORENZO">OBRATDS</bibl>
+                <bibl xml:id="OBRAHEIDEGGER">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMIENTRASAGONIZO">OBRATDS</bibl>
+                    <bibl xml:id="OBRADILTHEY">OBRATDS</bibl>
+                    <bibl xml:id="OBRASARTRE">OBRATDS</bibl>
+                    <bibl xml:id="OBRAMASALLABIENMAL">OBRATDS</bibl>
+                    <bibl xml:id="OBRANIETZSCHEZARATUSTRA">OBRATDS</bibl>
+                <bibl xml:id="OBRASUENOSDISCURSO">OBRATDS</bibl><bibl xml:id="OBRAORTEGATEORIAAQUIALLI">OBRATDS</bibl><bibl xml:id="OBRAORTEGAADANPARAISO">OBRATDS</bibl><bibl xml:id="OBRAHUSSERL">OBRATDS</bibl><bibl xml:id="OBRAGOYA">OBRATDS</bibl></listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

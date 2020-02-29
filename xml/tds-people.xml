@@ -1,0 +1,3421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="http://45.56.98.26:8080/exist/rest/db/madrid/xslt/html-transform-people.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt/>
+         <sourceDesc/>
+      </fileDesc>
+      <profileDesc>
+            
+      <listPerson>
+      <!--
+      settlement type
+      continent
+      country
+      province
+      city
+      town
+      district
+      georegion-->
+ 
+            <person xml:id="PERSAMADOR">
+                    <name type="persfirstname">Amador</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Ayudante de laboratorio</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPEDRO">
+                    <name type="persfirstname">Pedro</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Investigador</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSRAMONYCAJAL">
+                    <name type="persfirstname">Santiago</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Ramón y Cajal</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q150526</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Científico, investigador</note>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSREYSUECO">
+                    <name type="persfirstname">Gustavo V</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El Rey Sueco</name>
+                    <idno type="wikidataid">Q52890</idno>
+                    <country>PLACESUECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rey</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSINTERLOCUTORTELEFONO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Interlocutor por teléfono</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMINISTROEDUCACION">
+                    <name type="persfirstname">José</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Ibáñez Martín</name>
+                    <name type="persmoniker">El ministro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Ministro de Educación Nacional y Presidente del CSIC</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLUCIO">
+                    <name type="persfirstname">Lucío</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Compañero de guerra de Amador y El Muecas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMUECAS">
+                    <name type="persfirstname">Pablo</name>
+                    <name type="persepithet">El Muecas</name>
+                    <name type="perslastname">González</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFLORITA">
+                    <name type="persfirstname">Flora</name>
+                    <name type="persepithet">Florita</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHERMANAFLORITA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La hermana de Florita</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSRICARDA">
+                    <name type="persfirstname">Ricarda</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSALEXANDERFLEMING">
+                    <name type="persfirstname">Alexander</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Fleming</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q37064</idno>
+                    <country>PLACEREINOUNIDO,PLACEESCOCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Doctor, researcher,scientist</note>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSUBDIRECTOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El subdirector</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">El subdirector?</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMEDIODOBLE">
+                    <name type="persfirstname"/>
+                    <name type="persepithet">El Mediodoble</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSOSCAR">
+                    <name type="persfirstname">Óscar</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">?</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPERSONAJEPOEMALORCA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El campesino joven que de un salto cruza el río</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Campesino y un personaje de un poema de García Lorca</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLECORBUSIER">
+                    <name type="persfirstname">Charles-Édouard</name>
+                    <name type="persepithet">Le Corbusier</name>
+                    <name type="perslastname">Jeanneret</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q4724</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Arquitecto</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDORITA">
+                    <name type="persfirstname">Dora</name>
+                    <name type="persepithet">Dorita</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSABUELO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El Abuelo de Dorita</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Militar</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDORA">
+                    <name type="persfirstname">Dora</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSABUELA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La abuela de Dorita</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Dueña de la pensión</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSTAGALA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Una mujer tagala</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEFILIPINAS</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMEDICONAVAL">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El médico naval</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Médico</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHIPOTETICOPARIENTEMACHO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hipotético pariente macho de Dora</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNOVIODORA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El novio de Dora</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Bailaor de flamenco</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJACOBWINSLOW">
+                    <name type="persfirstname">Jacob</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Winslow</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q1677684</idno>
+                    <country>PLACEDINAMARCA,PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Científico, investigador, anatomista</note>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLUCINA">
+                    <name type="persfirstname">Lucina</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q604898</idno>
+                    <country>PLACEANTIGUAROMA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Diosa del parto</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFDR">
+                    <name type="persfirstname">Franklin Delano</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Roosevelt</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q8007</idno>
+                    <country>PLACEEEUU</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Presidente de EEUU</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMUJERCASASNOCHABOLAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Mujer de las casas-no-chabolas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADREMUECAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Madre del Muecas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADREAMADOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Madre de Amador</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMEDICOMADREAMADOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El médico del madre de Amador</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Médico</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSISIFO">
+                    <name type="persfirstname">Sísifo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q102561</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPADRERICARDA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El padre de Ricarda</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMANOLOINSTITUTO">
+                    <name type="persfirstname">Manolo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Difunto don Manolo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Trabajador del laboratorio; mentor del Muecas</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANGELGABRIEL">
+                    <name type="persfirstname">Gabriel</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El Ángel Gabriel</name>
+                    <idno type="wikidataid">Q81989</idno>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Ángl</note>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSREYMAGO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Un rey mago</name>
+                    <idno type="wikidataid">Q51671</idno>
+                    <country/>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rey mago</note>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCRIADAPENSION">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Criada</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADREPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La madre de Pedro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANCIANA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Mujer anciana</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNONA">
+                    <name type="persfirstname">Nona</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Una de las tres parcas</name>
+                    <idno type="wikidataid">Q7049161</idno>
+                    <country>PLACEANTIGUAROMA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Parca, diosa del embarazo</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSDECIMA">
+                    <name type="persfirstname">Décima</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Una de las tres parcas</name>
+                    <idno type="wikidataid">Q5249162</idno>
+                    <country>PLACEANTIGUAROMA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Parca, medidora del hilo de la vida</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSMORTA">
+                    <name type="persfirstname">Morta</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Una de las tres parcas</name>
+                    <idno type="wikidataid">Q1284182</idno>
+                    <country>PLACEANTIGUAROMA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Parca, cortadora del hilo de la vida</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSMOISES">
+                    <name type="persfirstname">Moisés</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9077</idno>
+                    <country>PLACEEGIPTO,PLACEISRAEL</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDIOS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Diós</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Diós</note>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCARTUCHO">
+                    <name type="persfirstname">Cartucho</name>
+                    <name type="persepithet">Cartucho</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCARTUCHOHIJO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hijo de Cartucho</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCARTUCHONOVIA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La antigua novia de Cartucho</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGUAPO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet">El Guapo</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSVIRGENPILAR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La Virgen del Pilar</name>
+                    <idno type="wikidataid">Q1479965</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Santa cristiana</note>
+                    <note type="perstype">fictional,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHERMANOCARTUCHONOVIA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hermano de la novia de Cartucho</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJUEZ">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El juez</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Juez</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHERMANACARTUCHONOVIA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hermana de la novia de Cartucho</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSREYDAVID">
+                    <name type="persfirstname">Rey David</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q41370</idno>
+                    <country>PLACEISRAEL</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rey</note>
+                    <note type="perstype">historic,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPRIMOFAMILIAMUECAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Un primo de la familia Muecas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCRIADAABAJO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La criada de abajo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Criada</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSOLDADOPAISANO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Un soldado en paisano</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Soldado</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCERVANTES">
+                    <name type="persfirstname">Miguel</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Cervantes</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q5682</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor, novelista, dramaturgo</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                    <bibl xml:id="OBRAHOR"/>
+                </person>
+                <person xml:id="PERSLOPE">
+                    <name type="persfirstname">Lope</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Vega</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q165257</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor, dramaturgo, sacerdote</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSVELAZQUEZ">
+                    <name type="persfirstname">Diego</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Veláquez</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q297</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Pintor</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDONQUIJOTE">
+                    <name type="persfirstname">Alonso</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Quijano</name>
+                    <name type="persmoniker">Don Quijote</name>
+                    <idno type="wikidataid">Q480</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Caballero andante</note>
+                    <note type="perstype">fictional,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                    <bibl xml:id="OBRAHOR"/>
+                    <bibl xml:id="OBRALDE"/>
+                </person>
+                <person xml:id="PERSCURA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El cura del Quijote</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Cura</note>
+                    <note type="perstype">fictional,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBARBERO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El barbero del Quijote</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Barbero, cirujano?</note>
+                    <note type="perstype">fictional,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMESIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q51626</idno>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Dios</note>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHIJACERVANTES">
+                    <name type="persfirstname">Isabel</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Saavedra</name>
+                    <name type="persmoniker">Hija de Cervantes</name>
+                    <idno type="wikidataid">Q17276367</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHEMINGWAY">
+                    <name type="persfirstname">Ernest</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Hemingway</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q23434</idno>
+                    <country>PLACEEEUU</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor, periodista</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGARCILASO">
+                    <name type="persfirstname">Garcilaso</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de la Vega</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q311405</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor, poeta</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSMATIAS">
+                    <name type="persfirstname">Matías</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSRAMONGOMEZDELASERNA">
+                    <name type="persfirstname">Ramón</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Gómez de la Serna</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q444893</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPROUST">
+                    <name type="persfirstname">Marcel</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Proust</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q7199</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJOSEVIDALBENEYTO">
+                    <name type="persfirstname">José</name>
+                    <name type="persepithet">Pepín</name>
+                    <name type="perslastname">Vidal Beneyto</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q2227382</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor, filósofo</note>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGRANDET">
+                    <name type="persfirstname">Eugénie</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Grandet</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q1373644</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Personaje principal en una novela realista de Balzac</note>
+                    <note type="perstype">fictional,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPINTORALEMAN">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El pintor alemán</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEALEMANIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Pintor</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHEIDEGGER">
+                    <name type="persfirstname">Martin</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Heidegger</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q48301</idno>
+                    <country>PLACEALEMANIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Filósofo, escritor</note>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCAMARERODRAMATURGOCAFEGIJON">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Camarero-dramaturgo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Camarero</note>
+                    <note type="perstype">fictional,character,historic?</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBACO">
+                    <name type="persfirstname">Baco</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q41680</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Dios</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMODELODAMAROSADA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Modelo del cuadro de las damas rosadas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Modelo de pintor</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSARTISTACUADRODAMAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Artista del cuadro de "las damas rosadas"</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Pintor</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADREPINTORALEMAN">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La madre del pintor alemán</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEALEMANIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSANLUISGONZAGA">
+                    <name type="persfirstname">San Luis</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Gonzaga</name>
+                    <name type="persmoniker">San Luis Gonzaga</name>
+                    <idno type="wikidataid">Q310307</idno>
+                    <country>PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Santo cristiano</note>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLUISA">
+                    <name type="persfirstname">Luisa</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Dueña del prostíbulo</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPORTERAPROSTIBULO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Portera del prostíbulo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Portera del prostíbulo</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSIRENA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Sirena en el dibujo carcelario</name>
+                    <idno type="wikidataid">Q182559</idno>
+                    <country/>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCHARO">
+                    <name type="persfirstname">Charo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Prostituta?</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDIABLO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El Diablo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSEDIPO">
+                    <name type="persfirstname">Edipo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q148643</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSELECTRA">
+                    <name type="persfirstname">Electra</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q131651</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLOSNOPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Los no-Pedros</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANGELCAIDO">
+                    <name type="persfirstname">Lucifer</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El Ángel Caído</name>
+                    <idno type="wikidataid">Q581450</idno>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMATRIMONIOSINHIJOSPENSION">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Matrimonio sin hijos</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSANANTONIO">
+                    <name type="persfirstname">San Antonio</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">San Antonio</name>
+                    <idno type="wikidataid">Q167477</idno>
+                    <country>PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Santo cristiano</note>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNAUSICAA">
+                    <name type="persfirstname">Nausícaa</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q135224</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSAUTOMEDONTE">
+                    <name type="persfirstname">Automedonte</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q772808</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Cochero de Aquiles</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFETO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Feto, hijo de Florita</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCAMAREROCHABOLABAR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Camarero del bar en las chabolas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Camarero</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDIOSESCUCHAHEMBRAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Dioses Escucha-Hembras</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCOMADRECHABOLAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Comadre de las chabolas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Comadre</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMUJERGORDACHABOLAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Mujer gorda de las chabolas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADRECARTUCHO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Madre de Cartucho</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSANTAAPOLONIA">
+                    <name type="persfirstname">Santa Apolonia</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Santa Apolonia</name>
+                    <idno type="wikidataid">Q232427</idno>
+                    <country>PLACEEGIPTO</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Santa cristiana</note>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSAMIGADORA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Amiga de Dora</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMAGO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet">El Mago</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPRIMALEJANAMUECAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Prima lejana del Muecas</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPORTEROMATIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Portero de la casa de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Portero</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCRIADOMATIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Criado de la casa de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Criado</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMATILDEMADREMATIAS">
+                    <name type="persfirstname">Matilde</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Madre de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHERMANAMATIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hermana de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGOYA">
+                    <name type="persfirstname">Francisco</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Goya</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q5432</idno>
+                    <country>PLACEESPANA,PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Pintor</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAHOR"/>
+                    <bibl xml:id="OBRAINS"/>
+                    <bibl xml:id="OBRALDB"/>
+                    <bibl xml:id="OBRAESM"/>
+                    <bibl xml:id="OBRALBU"/>
+                </person>
+                <person xml:id="PERSGRANMACHOCABRIO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El gran macho cabrío</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMAESTRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El maestro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Filósofo, escritor</note>
+                    <note type="perstype">fictional,character,historic</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNATURALEZAMADRE">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La naturaleza madre</name>
+                    <idno type="wikidataid">Q1402540</idno>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSVATSYAYANA">
+                    <name type="persfirstname">Vatsiaiana</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q380234</idno>
+                    <country>PLACEINDIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor, religioso</note>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMENENDEZPIDAL">
+                    <name type="persfirstname">Ramón</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Menéndez Pidal</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q381953</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Filólogo</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSIETENINOSECIJA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Los siete niños de Écija</name>
+                    <idno type="wikidataid">Q9024357</idno>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation">Bandoleros</note>
+                    <note type="perstype">historic,other</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJOANMASSOIGILBERT">
+                    <name type="persfirstname">Joan</name>
+                    <name type="persepithet">¡Oh, Gran Gilbert!</name>
+                    <name type="perslastname">Masso i Gilbert</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Maestro de ceremonias, La Bodega Bohemia</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMARIALDA">
+                    <name type="persfirstname">Mari</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Alda</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Actriz?</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSVICENTEPASTOR">
+                    <name type="persfirstname">Vicente</name>
+                    <name type="persepithet">Chico de a blusa</name>
+                    <name type="perslastname">Pastor</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q3556929</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Matador</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSORMUZ">
+                    <name type="persfirstname">Ahura Mazda (Ormuz)</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Deidad suprema del zoroastrismo</name>
+                    <idno type="wikidataid">Q179575</idno>
+                    <country>PLACENONUNIVERSE,PLACEPERSIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSROBERTBROWN">
+                    <name type="persfirstname">Robert</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Brown</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q155764</idno>
+                    <country>PLACEINGLATERRA,PLACEREINOUNIDO</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Científico, botanista</note>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDAMAELEGANTE">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Dama elegante del Teatro Barceló</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBALENCIAGA">
+                    <name type="persfirstname">Cristóbal</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Balenciaga</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q381088</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Diseñador</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSATENEA">
+                    <name type="persfirstname">Palas Atenea</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q37122</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Diosa</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDOLORESTIAMATIAS">
+                    <name type="persfirstname">Dolores</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSABUELAMATIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La abuela de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSTIAMONJAMATIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La tía monja de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Monja</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJOHNDALTON">
+                    <name type="persfirstname">John</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Dalton</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q41284</idno>
+                    <country>PLACEINGLATERRA,PLACEREINOUNIDO</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Científico</note>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSTAYLOR">
+                    <name type="persfirstname">Frederick W.</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Taylor</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q203906</idno>
+                    <country>PLACEEEUU</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Empresario, ingeniero</note>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBEDAUX">
+                    <name type="persfirstname">Charles Eugène</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Bedaux</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q982186</idno>
+                    <country>PLACEEEUU,PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Empresario, ingeniero</note>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBOSCO">
+                    <name type="persfirstname">Hieronymus</name>
+                    <name type="persepithet">El Bosco</name>
+                    <name type="perslastname">Bosch</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q130531</idno>
+                    <country>PLACEPAISESBAJOS</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Pintor</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMUJERAMADOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El mujer de Amador</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMOZOAUTOPSIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El mozo de autopsias</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Ayudante de autopsias</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGATOPROSTIBULO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Gato</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation">Gato</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMANDADEROPROSTIBULO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Mandadero del prostíbulo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Mandadero del prostíbulo</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANDRESAPROSTITUTA">
+                    <name type="persfirstname">Andresa</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Prostituta</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSALICIAPROSTITUTA">
+                    <name type="persfirstname">Alicia</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Prostituta</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSORACULODELFOS">
+                    <name type="persfirstname">Pitia</name>
+                    <name type="persepithet">Oráculo de Delfos</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q682558</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Oráculo</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCONCEJALLUISA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El concejal, novio/cliente de Doña Luisa</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Concejal</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPINCHAPROSTIBULO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Pincha del prostíbulo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Ayudante de cocina en el prostíbulo</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPADREAMADOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El padre de Amador</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNINOVECINOAMADOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El niño vecino de Amador</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSIMILIANO">
+                    <name type="persfirstname">Similiano</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Policía</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMUJERSIMILIANO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Mujer de Similiano</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSAQUILES">
+                    <name type="persfirstname">Aquiles</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q41746</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLAURA">
+                    <name type="persfirstname">Laura</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDOCTORSIMILIANO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Doctor de Don Similiano</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Doctor</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADRESIMILIANO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Madre de Don Similiano</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCLITEMNESTRA">
+                    <name type="persfirstname">Clitemnestra</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q131157</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSEVA">
+                    <name type="persfirstname">Eva</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q830183</idno>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSABOGADOMATIAS">
+                    <name type="persfirstname">Jaime</name>
+                    <name type="persepithet">El ardilla</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Abogado de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Abogado</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBOGART">
+                    <name type="persfirstname">Humphrey</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Bogart</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q16390</idno>
+                    <country>PLACEEEUU</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Actor</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPOLICIA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Policía</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Policía</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJUPITER">
+                    <name type="persfirstname">Júpiter</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q4649</idno>
+                    <country>PLACENONUNIVERSE,PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Dios</note>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGULLIVER">
+                    <name type="persfirstname">Gulliver</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Lemuel</name>
+                    <idno type="wikidataid">Q181488</idno>
+                    <country>PLACEINGLATERRA,PLACEREINOUNIDO</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Médico</note>
+                    <note type="perstype">fictional,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHIPOTETICANOVIAMIDELUESTICAPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La hipotética novia mideluéstica de Pedro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEEEUU</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGOBERNADORCIVIL">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Gobernador civil</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Gobernador civil</note>
+                    <note type="perstype">fictional,character?</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPRESO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCIRUJANOFAMOSO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Cirujano famoso</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Cirujano, médico</note>
+                    <note type="perstype">fictional,character?</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPADREMATIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Padre de Matías</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSIBILA">
+                    <name type="persfirstname">Sibila</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q273320</idno>
+                    <country>PLACEANTIGUAGRECIA,PLACEANTIGUAROMA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNESTOR">
+                    <name type="persfirstname">Néstor</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q193267</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSABOGADOFAMOSO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Abogado famoso</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Abogado</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSENORITAGUITARRA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Señorita de la guitarra</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFUMADORGRIFA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Fumador de grifa</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLABELLEZA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La belleza del bar</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSALGUACIL">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Alguacil</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFORENSE">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Forense</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADREPOLICIAENTREVISTA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La madre de la policia que murió del cáncer</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJESUS">
+                    <name type="persfirstname">Jesucristo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q302</idno>
+                    <country>PLACEISRAEL</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Díos, hijo de díos</note>
+                    <note type="perstype">historic,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSACERDOTEBODA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Sacerdote</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLIMPIABOTAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Limpiabotas</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDIRECTOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El director</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">El director del Instituto?</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADREAMIGADORITA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Madre de la amiga de Dorita</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSAMIGADORITA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La amiga de Dorita</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPRETENDIENTESAMIGADORITA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Pretendientes de la amiga de Dorita</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSEULOGIO">
+                    <name type="persfirstname">Eulogio</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Prestamista que mantenía a flote la pensión</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSENFERMERAPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Enfermera</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMUJAMED">
+                    <name type="persfirstname">Muhammad</name>
+                    <name type="persepithet">Mahoma</name>
+                    <name type="perslastname">ibn Abdullah</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9458</idno>
+                    <country>PLACEARABIASAUDITA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Profeta, fundador del Islam</note>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSUPERVEDETTE">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">La supervedette/actriz del teatro de revista</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Actriz</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDUQUESAALBA">
+                    <name type="persfirstname">María del Pilar Teresa Cayetana</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Silva Álvarez de Toledo</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q260128</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Duquesa de Alba</note>
+                    <note type="perstype">historic,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAHOR"/>
+                </person>
+                <person xml:id="PERSEUGENIAMONTIJO">
+                    <name type="persfirstname">Eugenia</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Montijo</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q157130</idno>
+                    <country>PLACEESPANA,PLACEFRANCIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">emperatriz consorte de Francia</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCARLOSIII">
+                    <name type="persfirstname">Carlos III</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Rey de España</name>
+                    <idno type="wikidataid">Q36234</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rey</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSONFELIPEII">
+                    <name type="persfirstname">Felipe II</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Rey de España</name>
+                    <idno type="wikidataid">Q34417</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rey</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCAMAREROVERBENA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Camarero en la verbena</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Camarero en la verbena</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCONDEORGAZCUADRO">
+                    <name type="persfirstname">Gonzalo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Ruiz de Toledo</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q3817176</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Conde de Orgaz</note>
+                    <note type="perstype">historic,political,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCONDEDEORGAZ">
+                    <name type="persfirstname">Gonzalo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Ruiz de Toledo</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q3817176</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Conde de Orgaz</note>
+                    <note type="perstype">historic,political,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHIJOPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA,PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLACAVA">
+                    <name type="persfirstname">Florinda La Cava</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q20410033</idno>
+                    <country>PLACEESPANA,PLACEMARRUECOS</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGOETHE">
+                    <name type="persfirstname">Johann Wolfgang</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">von Goethe</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q5879</idno>
+                    <country>PLACEALEMANIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Escritor</note>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSIFIGENIA">
+                    <name type="persfirstname">Ifigenia</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Personaje de Goethe</name>
+                    <idno type="wikidataid">Q192673</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSANMARTIN">
+                    <name type="persfirstname">San Martín</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">San Martín de Tours</name>
+                    <idno type="wikidataid">Q133704</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Santo cristiano</note>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJULESMAIGRET">
+                    <name type="persfirstname">Jules</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Maigret</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q830561</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Policía (personaje)</note>
+                    <note type="perstype">fictional,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCASANDRA">
+                    <name type="persfirstname">Casandra</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q170779</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSREVISORTREN">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El revisor del tren Madrid-El Escorial</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Revisor de tren</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFRANCOISANDREPHILIDOR">
+                    <name type="persfirstname">François André</name>
+                    <name type="persepithet">Philidor</name>
+                    <name type="perslastname">Danican Philidor</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q203229</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Ajedrecista</note>
+                    <note type="perstype">historic,other</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSANLORENZO">
+                    <name type="persfirstname">San Lorenzo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">San Lorenzo, Mártir</name>
+                    <idno type="wikidataid">Q17590</idno>
+                    <country>PLACEESPANA,PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Santo cristiano</note>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSTORQUEMADA">
+                    <name type="persfirstname">Tomás</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Torquemada</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q210735</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Inquisidor</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSVERDUGOSANLORENZO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El verdugo de San Lorenzo</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Verdugo</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNEEDSPERSON">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Persona sin más detalles</name>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMATRIMONIOSMINISTERIOGOBERNACION">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSAVAGARDNER">
+                    <name type="persfirstname">Ava</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Gardner</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q164487</idno>
+                    <country>PLACEEEUU</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Actriz</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMANOLORATA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Un ratón llamado Manolo</name>
+                    <idno type="wikidataid">Q2390861</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rata de experiencia</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHIPOTETICAMUJERPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hipotética mujer de Pedro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSAHRIMAN">
+                    <name type="persfirstname">Ahriman</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Angra Mainyu</name>
+                    <idno type="wikidataid">Q223805</idno>
+                    <country>PLACEPERSIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,mythological</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBUDA">
+                    <name type="persfirstname">Siddharta</name>
+                    <name type="persepithet">El Buda Supremo</name>
+                    <name type="perslastname">Gautama</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9441</idno>
+                    <country>PLACEINDIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,religious</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCOMISARIOSIMILIANO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet">El comi</name>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Comisario de la Comisaría de Similiano</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSARAHBERNHARDT">
+                    <name type="persfirstname">Sarah</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Bernhardt</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q4605</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Actriz, enfermera</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGNOMO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">"Gnomo"</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPADREPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Padre de Pedro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNAPOLEON">
+                    <name type="persfirstname">Napoleón</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Bonaparte</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q517</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Emperador</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAHOR"/>
+                </person>
+                <person xml:id="PERSPLATON">
+                    <name type="persfirstname">Platón</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q859</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Filósofo</note>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPORTEROINSTITUTO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Portero del Instituto</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Portero</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFREGONAINSTITUTO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Fregona del Instituto</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Fregona</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSREYRODRIGO">
+                    <name type="persfirstname">Rodrigo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Rey Rodrigo</name>
+                    <idno type="wikidataid">Q243573</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rey</note>
+                    <note type="perstype">historic,political,metaliterary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHIPOTETICACLIENTEPEDRO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hipotética cliente del Doctor Pedro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHIPOTETICOPRECESORCONSULTA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Hipotético precesor de la consulta hipotética del Doctor Pedro</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Doctor</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSTAXISTA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Taxista</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Taxista</note>
+                    <note type="perstype">fictional,character,archetype</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPORTERO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Portero</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Portero</note>
+                    <note type="perstype">fictional,character,archetype</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCAMARERA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Camarera</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation">Camarera</note>
+                    <note type="perstype">fictional,character,archetype</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCHICAINGLESA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Chica inglesa del Café Gijón</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEINGLATERRA,PLACEREINOUNIDO</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSABISAG">
+                    <name type="persfirstname">Abisag</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">"Calor humano" para el Rey David</name>
+                    <idno type="wikidataid">Q321469</idno>
+                    <country>PLACEISRAEL</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMANOLETERODRIGUEZSANCHEZ">
+                    <name type="persfirstname">Manuel</name>
+                    <name type="persepithet">Manolete</name>
+                    <name type="perslastname">Rodríguez Sánchez</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q363911</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Matador</note>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPROSTITUTA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLECTOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El lector de Tiempo de silencio?</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANTIANGEL">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Un "no-ángel"</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACENONUNIVERSE</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,religious,biblical</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPRESIDENTE">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">El presidente...</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Presidente (del Estado? de la Plaza?)</note>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMADRERICARDA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker">Madre de Ricarda</name>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex>mujer</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSORTEGAGASSET">
+                    <name type="persfirstname">José</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Ortega y Gasset</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q153020</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Filósofo, escritor</note>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCIGARRERA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGUARDIAQUEDANUMERO">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDAMACONFERENCIAS">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANONIMO">
+                    <name type="persfirstname">Anonymous</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJORGEMANRIQUE">
+                    <name type="persfirstname">Jorge</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Manrique</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q389233</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSENRIQUEIV">
+                    <name type="persfirstname">Enrique</name>
+                    <name type="persepithet">Enrique IV</name>
+                    <name type="perslastname">de Borbón</name>
+                    <name type="persmoniker">Rey de Navarra y de Francia</name>
+                    <idno type="wikidataid">Q936976</idno>
+                    <country>PLACEESPANA,PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation">Rey</note>
+                    <note type="perstype">historic,political</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSCLARIN">
+                    <name type="persfirstname">Leopoldo</name>
+                    <name type="persepithet">Clarín</name>
+                    <name type="perslastname">Aras</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q312747</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLORCA">
+                    <name type="persfirstname">Federico</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">García Lorca</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q41408</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBOLONIATACCA">
+                    <name type="persfirstname">Juan</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Bolonia (y Tacca)</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q220136</idno>
+                    <country>PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGONGORA">
+                    <name type="persfirstname">Luis</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Góngora</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q219744</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMIGUELHERNANDEZ">
+                    <name type="persfirstname">Miguel</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Hernández</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q332088</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSVELEZGUEVARA">
+                    <name type="persfirstname">Luis</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Vélez Guevara</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q1305828</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSWEBDUBOIS">
+                    <name type="persfirstname">W.E.B.</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Dubois</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q158060</idno>
+                    <country>PLACEEEUU</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGOMEZSERNA">
+                    <name type="persfirstname">Ramón</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Gómez de la Serna</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q444893</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJRJ">
+                    <name type="persfirstname">Juan Ramón</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Jiménez</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q131318</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSLUPERCIOARGENSOLA">
+                    <name type="persfirstname">Lupercio</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Argensola</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q2107506</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFERNANDOROJAS">
+                    <name type="persfirstname">Fernando</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Rojas</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q353841</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSHORACIO">
+                    <name type="persfirstname">Horacio</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q6197</idno>
+                    <country>PLACEANTIGUAROMA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSOFOCLES">
+                    <name type="persfirstname">Sofocles</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q7235</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSHOMERO">
+                    <name type="persfirstname">Homero</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q6691</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                    <bibl xml:id="OBRAHOR"/>
+                </person>
+                <person xml:id="PERSOTROPINTOR">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype">fictional,character</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFAULKNER">
+                    <name type="persfirstname">William</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Faulkner</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q38392</idno>
+                    <country>PLACEEEUU</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSKANT">
+                    <name type="persfirstname">Immanuel</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Kant</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9312</idno>
+                    <country>PLACEPRUSSIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSTOMASAQUINO">
+                    <name type="persfirstname">Tomás</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Aquino</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9438</idno>
+                    <country>PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSDANTE">
+                    <name type="persfirstname">Dante</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Aligheri</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q1067</idno>
+                    <country>PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSBAROJA">
+                    <name type="persfirstname">Pío</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Baroja</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q220980</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBOCACCIO">
+                    <name type="persfirstname">Giovanni</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Boccaccio</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q1402</idno>
+                    <country>PLACEITALIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFREUD">
+                    <name type="persfirstname">Sigmund</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Freud</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9215</idno>
+                    <country>PLACEAUSTRIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,sciences</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSARTRE">
+                    <name type="persfirstname">Jean Paul</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Sartre</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9364</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSERICHNEUMANN">
+                    <name type="persfirstname">Erich</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Neumann</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q61171</idno>
+                    <country>PLACEALEMANIA,PLACEISRAEL</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSVIRGILIO">
+                    <name type="persfirstname">Virgilio</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q1398</idno>
+                    <country>PLACEANTIGUAROMA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSJONATHANSWIFT">
+                    <name type="persfirstname">Jonathan</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Swift</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q41166</idno>
+                    <country>PLACEIRLANDA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSNIETZSCHE">
+                    <name type="persfirstname">Frederich</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Nietzsche</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9358</idno>
+                    <country>PLACEALEMANIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAHOR"/>
+                </person>
+                <person xml:id="PERSBORGES">
+                    <name type="persfirstname">Jorge Luis</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Borges</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q909</idno>
+                    <country>PLACEARGENTINA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBALZAC">
+                    <name type="persfirstname">Honoré</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Balzac</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q9711</idno>
+                    <country>PLACEFRANCIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSBECQUER">
+                    <name type="persfirstname">Gustavo Adolfo</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Bécquer</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q203715</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSAUGUSTINLARA">
+                    <name type="persfirstname">Augustín</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Lara</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q399318</idno>
+                    <country>PLACEMEXICO</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSGRECO">
+                    <name type="persfirstname">Doménikos</name>
+                    <name type="persepithet">El Greco</name>
+                    <name type="perslastname">Theotokópoulos</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q301</idno>
+                    <country>PLACEESPANA,PLACEGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANTONIOZAMORA">
+                    <name type="persfirstname">Antonio</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Zamora</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q5700120</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSTIRSOMOLINA">
+                    <name type="persfirstname">Tirso</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">de Molina</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q295598</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSPROTAGORAS">
+                    <name type="persfirstname">Protágoras</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q169243</idno>
+                    <country>PLACEANTIGUAGRECIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,philosophy</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSIMENON">
+                    <name type="persfirstname">Georges</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Simenon</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q128790</idno>
+                    <country>PLACEBELGICA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMARTINSANTOS">
+                    <name type="persfirstname">Luis</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Martín-Santos</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q1381427</idno>
+                    <country>PLACEESPANA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSJAMESJOYCE">
+                    <name type="persfirstname">James</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Joyce</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q6882</idno>
+                    <country>PLACEIRLANDA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSWINTERHALTER">
+                    <name type="persfirstname">Franz Xaver</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Winterhalter</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q168659</idno>
+                    <country>PLACEALEMANIA</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,arts</note>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSHAKESPEARE">
+                    <name type="persfirstname">William</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname">Shakespeare</name>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid">Q692</idno>
+                    <country>PLACEINGLATERRA,PLACEREINOUNIDO</country>
+                    <sex>hombre</sex>
+                    <note type="persoccupation"/>
+                    <note type="perstype">historic,literary</note>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRAESM"/>
+                </person>
+                <person xml:id="PERSCELESTINA">
+                    <name type="persfirstname">Celestina</name>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country>PLACEESPANA</country>
+                    <sex/>
+                    <note type="persoccupation">Alcahueta</note>
+                    <note type="perstype">fictional,metaliterary</note>
+                    <bibl xml:id="OBRAESM"/>
+                    <bibl xml:id="OBRALDE"/>
+                    <bibl xml:id="OBRALDB"/>
+                    <bibl xml:id="OBRATDS"/>
+                    <bibl xml:id="OBRALBU"/>
+                </person>
+                <person xml:id="PERSORTEGAGASSETT">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSSANCHOPANZA">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSMARITORNES">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSANGELRAFAEL">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSPEDRO?">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+                <person xml:id="PERSFELIPEIV">
+                    <name type="persfirstname"/>
+                    <name type="persepithet"/>
+                    <name type="perslastname"/>
+                    <name type="persmoniker"/>
+                    <idno type="wikidataid"/>
+                    <country/>
+                    <sex/>
+                    <note type="persoccupation"/>
+                    <note type="perstype"/>
+                    <bibl xml:id="OBRATDS"/>
+                </person>
+            </listPerson>
+          
+        </profileDesc>
+    </teiHeader>
+</TEI>

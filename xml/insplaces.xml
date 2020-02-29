@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-obrains.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <settingDesc>
+      <listPlace>
+               <place/>
+                <place xml:id="PLACECASAMONEDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEAFRICACENTRAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEAFRICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPIRINEOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACESOLESPANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPARIS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPRADERASANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECERROSANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECADIZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEALEMANIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEGALICIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOTRIANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOLAVAPIES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPENINSULAIBERICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACESEVILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECORDOBA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEFRANCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEINGLATERRA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEFLANDES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEIGLESIASANPASCUAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEALCALA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECAFESUIZO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECIBELES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEORECOLETOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPASCUALAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACENEEDSLOCATION">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLECABALLEROGRACIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZACEBADA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEMEDITERRANEO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEMALAGA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACETEATROREAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACERIOMANZANARES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACERIOMINO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACERIOSIL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEGRANVIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEFONDASSANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEVILLALON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEJEREZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAMAYOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEVERBENASANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECOLISEOROMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEROMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEALAMEDASANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEBAHIAVIGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOSPOBRESMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEVIGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECASINOVIGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEALAMEDAVIGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTOVIGO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECOLEGIOFRANCESMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACESANTIAGOCOMPOSTELA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECIELOMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEMUSEOPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZACORTES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECARRERASANJERONIMO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECALLETRAJINEROS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZUELACORTES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECASTILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACERETIRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEVENTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTEVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACETORREMUDEJAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACESIERRAGUADARRAMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEFONDACONFIANZA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEBABILONIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACETABACALERAMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEESCORIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEPALENCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACELEON">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                   
+                    <place xml:id="PLACECORDILLERACANTABRICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEBIARRITZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACESURESPANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECOMARCAMARAGATERIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                <place xml:id="PLACEPASEOPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACESALONPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEVALLEPAZOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACEESTATUAESPARTERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACERETIROLEONA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                    <place xml:id="PLACECIRCULOMILITAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAINS</bibl>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+                     </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

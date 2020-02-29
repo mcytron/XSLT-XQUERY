@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-stats-mentions-madrid.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+               
+                
+                <bibl xml:id="OBRATDS">
+                        <interp>7</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALBU">
+                        <interp>53</interp>
+                    </bibl>
+                    <bibl xml:id="OBRAINS">
+                        <interp>22</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALCT">
+                        <interp>1</interp>
+                    </bibl>
+                    <bibl xml:id="OBRAHOR">
+                        <interp>146</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALMI">
+                        <interp>39</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALDE">
+                        <interp>80</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALPI">
+                        <interp>35</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALDB">
+                        <interp>2</interp>
+                    </bibl>
+                    <bibl xml:id="OBRAESM">
+                        <interp>101</interp>
+                    </bibl>
+                    <bibl xml:id="OBRAADC">
+                        <interp>44</interp>
+                    </bibl>
+                    <bibl xml:id="OBRACDV">
+                        <interp>97</interp>
+                    </bibl>
+                    <bibl xml:id="OBRACDM">
+                        <interp>89</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALBR">
+                        <interp>32</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALFO">
+                        <interp>45</interp>
+                    </bibl>
+                    <bibl xml:id="OBRANTV">
+                        <interp>4</interp>
+                    </bibl>
+                    <bibl xml:id="OBRAMIA">
+                        <interp>30</interp>
+                    </bibl>
+                    <bibl xml:id="OBRATRI">
+                        <interp>15</interp>
+                    </bibl>
+                    <bibl xml:id="OBRAEJA">
+                        <interp>65</interp>
+                    </bibl>
+                    <bibl xml:id="OBRACDP">
+                        <interp>40</interp>
+                    </bibl>
+                    <bibl xml:id="OBRALTS">
+                        <interp>11</interp>
+                    </bibl>
+                    <bibl xml:id="OBRACOL">
+                        <interp>41</interp>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform2-obras.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <biblStruct>
+                
+                <bibl xml:id="OBRARETRATORAMONCAJAL">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAJORGEMANRIQUECOPLAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAFRASEHENRIIV">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAQUIJOTE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAREGENTA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAPROLOGOLIBRODEPOEMASLORCA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHISTORIAFELIPEIIESCORIAL">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACOMMEDIADELLARTE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAESTATUAFELIPEIII">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRANEEDSOBRA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+
+                <bibl xml:id="OBRAVILLERADIEUSE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMITOLOGIALUCINA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRASOLEDADPRIMERA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAPERITOENLUNAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMITOLOGIAVEDICA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRADIABLOCOJUELO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRABIBLIA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADROSPINACOTECA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRASOULSOFBLACKFOLK">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAUROBOROS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRASLIBROSCABALLERIA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+
+                <bibl xml:id="OBRAULTRAISMO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAGREGUERIAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAJRJPIEDRACIELO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+
+                <bibl xml:id="OBRABAJORREALISMO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADROSPINTORALEMAN">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRALITURGIACATOLICA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRASONETOARGENSOLA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRANEOEXPRESIONISTA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+
+                <bibl xml:id="OBRACELESTINA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMITOLOGIAGRIEGA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHISTORIAANTIGUAROMA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHORACIOODAII">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAEDIPOREY">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRATRADICIONDHARMICA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAARTEPEDROSIRENA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAODISEA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADRODAMASROSADAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAILIADA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMITOSISIFO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAAQUELARRE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAKAMASUTRA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRATOMASAQUINO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAREBELIONMASAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAESPANAINVERTEBRADA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMEDITACIONESQUIJOTE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHISTORIASIETENINOSECIJA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAGORIGORI">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAZOROASTRISM">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRATEMANUESTROTIEMPO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRADOSGRANDESMETAFORAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRADESHUMANIZACIONARTE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAARBOLCIENCIABAROJA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAAQUELARREPOSTER">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAJARDINDELICIAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRADECAMERON">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAFREUD">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMITOLOGIAROMANA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAIMAGENSANTO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACORAN">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMITOLOGIA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMOTHERNEUMANN">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADROSPROSTIULO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAENEIDA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAGULIVER">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACATEQUISMOCATOLICO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+   
+                <bibl xml:id="OBRAHIPOTETICODIBUJOCELDA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMINOTAURO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="oBRAMITOLOGIAGRIEGA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRABORGESMINOTAURO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRATENEBRUESEAFFAIRE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAREPUBLICAPLATON">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAARTEABSTRACTO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRABECQUER">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAEINSTEIN">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAPELICULA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMAJADESNUDA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHISTORIA1814ABSOLUTISTAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADRO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADRODOSDEMAYO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADROTRESDEMAYO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRALAMACARENA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAESCULTURASANGELES">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMADRIDAUGUSTINLARA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAENTIERROCONDEDEORGAZ">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRANOHAYPLAZO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRABURLADORSEVILLA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAREFRAN">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMITODEFLORINDALACAVA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRALIBRODANIEL">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHOMBRELOBO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAPROTAGORAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAPOLICIACASIMENON">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHISTORIAEUNUCOSTURCOS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+
+                <bibl xml:id="OBRAHISTORIASANLORENZO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+            <bibl xml:id="OBRAMENINAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAULYSSES">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACUADROWINTERHALTER">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+
+                <bibl xml:id="OBRATDS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+            <bibl xml:id="OBRAFAULKNER">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+            <bibl xml:id="OBRAPERSILESSIGISMUNDA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRACABALA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRADIVINACOMEDIA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRARETRATOAVAGARDNER">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHENRYIV">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+            <bibl xml:id="OBRAFAUSTO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMORADAS">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHAMLET">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAHEIDEGGER">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMIENTRASAGONIZO">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRADILTHEY">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRASARTRE">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRAMASALLABIENMAL">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+                <bibl xml:id="OBRANIETZSCHEZARATUSTRA">
+                    <note>NEW-OBRA</note>
+                    <note type="work">OBRATDS</note>
+                </bibl>
+            <bibl xml:id="OBRASUENOSDISCURSO"><note>NEW-OBRA</note><note type="work">OBRATDS</note></bibl><bibl xml:id="OBRAORTEGATEORIAAQUIALLI"><note>NEW-OBRA</note><note type="work">OBRATDS</note></bibl><bibl xml:id="OBRAORTEGAADANPARAISO"><note>NEW-OBRA</note><note type="work">OBRATDS</note></bibl><bibl xml:id="OBRAHUSSERL"><note>NEW-OBRA</note><note type="work">OBRATDS</note></bibl><bibl xml:id="OBRAGOYA"><note>NEW-OBRA</note><note type="work">OBRATDS</note></bibl></biblStruct>
+            
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

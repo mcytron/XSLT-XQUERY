@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-obrahor.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <settingDesc>
+      <listPlace>
+               <place/>
+                <place xml:id="PLACEGLORIETACUATROCAMINOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECOLMENARVIEJO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEBRAVOMURILLO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOSANMARTIN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEFUENCARRAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEALCOBENDAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOBELLASVISTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETETUAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOALMENARA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOFRAJANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCAROLINAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEESTRECHO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPUNTABRAVA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEARTISTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBIBLIOTECANACIONAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMUSEOPRADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETEATROREAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEESPANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEAFRICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEJACOMETREZO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEATENEO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEEUROPA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACESANATORIOPERROS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPARDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACERASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEAMERICASRASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACERIOLOZOYA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETAZAPUERTASOL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTASOL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEGLORIETABILBAO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECAFECOMERCIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLECARMEN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEOBSERVATORIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEHOSPICIOSANFERNANDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOCASTELLANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOSPOBRESMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEFUENCARRAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPENINSULAIBERICA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEUNIVERSIDADCENTRAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECASTILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECAFEPELAEZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACERIOMANZANARES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPARIS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCUATROCAMINOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACERIBERACURTIDORES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEVIEJASAMERICASRASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESERRANO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEPOSTAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACESIERRAGUADARRAMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELESCORIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEESCORIAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECASTILLANUEVA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEREUS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECUARTELSOMONTES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECUARTELGOLOSO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECUARTELCANOSQUEBRADOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACENAVACHESCAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEVALENCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECARCELMODELO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECUARTELSANJORGE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECUARTELVALDELAGANAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEVINUELAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPARDOVALDEPALOMERO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPARDOPORTILLERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPARDOQUERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEARROYOTROFAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECASACAMPO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEGRANJA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEARANJUEZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMURCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCHAMARTIN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEALCALA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMINISTERIOHACIENDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAORIENTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECERROPINOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEFUENTECANODORADO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECANALLOZOYA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMONCLOA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLESEVILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZACEBADA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEGRANADA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEASILOSANBERNARDINO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEHABANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEVIENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEFUENTETEJA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEVIADUCTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECANALILLO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACENORUEGA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEUNIVERSIDADGOTINGA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEGOTINGA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEHUERTAOBISPO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZACASCORRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLERUDA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEESTATUACASCORRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACENUEVASAMERICASRASTRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOACACIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMIRASOL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECAFESANMILLAN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEIGLESIASANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECARRETERAEXTREMADURA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOSALAMANCA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEVALLECAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECERROPIMIENTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPRINCIPEPIO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECHAMIZOPALACIOCRISTAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACESIERRAMORENA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEIGLESIASANTACRUZ">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMERENDEROAMANIEL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPUERTATOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEDEPOSITOJUDICIALCADAVERES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACELAVADEROSMANZANARES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPIRAMIDES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOOCHOHILOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOCAMBRONERAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEEMBAJADORES">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOPENUELAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBARRIOINJURIAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPRADERASANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOESTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECEMENTERIOSANISIDRO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEANDALUCIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMANCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACESEGOVIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEAVILA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEILLESCAS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEOCANA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEMORA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEQUINTANAR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEBELMONTE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECONSUEGRA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETALAVERA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETORIJA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETOLEDO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECORDOBA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEVALLADOLID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACESEVILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEGALICIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEROMA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACERIOSECO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEATOCHA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEHOSPITALSANCARLOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPLAZAFUENTECILLA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECERROCORVOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECALLEMAYOR">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETEATROAPOLO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEESCUELASANCARLOS">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPUENTESEGOVIA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACETABERNAAGUSTIN">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPALACIOREAL">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACESANFRANCISCOGRANDE">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECIELOMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECAMPOMORO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEPASEOVIRGENPUERTO">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECUESTAVEGA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACECAROLINASMADRID">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACEZARZUELA">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                    <place xml:id="PLACENEEDSLOCATION">
+                        <note>NEW-PLACE</note>
+                        <bibl>OBRAHOR</bibl>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+                     </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-lde-people.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+                <listPerson>
+                <person/>
+                
+            <person xml:id="PERSCELESTINA"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person><person xml:id="PERSMEFISTOFELES"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person><person xml:id="PERSDONQUIJOTE"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person><person xml:id="PERSMARIANOFORTUNY"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person><person xml:id="PERSBERNARDPALISSY"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person><person xml:id="PERSHOLOFERNES"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person><person xml:id="PERSANTICRISTO"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person><person xml:id="PERSANAGUSTIN"><note>NEW-PERSON</note><bibl>OBRALDE</bibl></person></listPerson>
+            
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="../xslt/csv-transform-esm-works.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+               
+                <bibl xml:id="OBRAQUIJOTE">OBRAESM</bibl>
+                    
+                <bibl xml:id="OBRACELESTINA">OBRAESM</bibl><bibl xml:id="OBRASUENOSDISCURSO">OBRAESM</bibl><bibl xml:id="OBRADIABLOCOJUELO">OBRAESM</bibl><bibl xml:id="OBRAVIAJENTRETENDIO">OBRAESM</bibl><bibl xml:id="OBRAAVENTURASGILBLASSANTILLANA">OBRAESM</bibl><bibl xml:id="OBRAOTELO">OBRAESM</bibl><bibl xml:id="OBRAVENUSMEDICIS">OBRAESM</bibl><bibl xml:id="OBRAALMANAQUESARRABALDEMILAN">OBRAESM</bibl><bibl xml:id="OBRAMANUALMADRID">OBRAESM</bibl><bibl xml:id="OBRACUADROTICIANO">OBRAESM</bibl><bibl xml:id="OBRAVELADASQUINTA">OBRAESM</bibl><bibl xml:id="OBRAPAMELAVIRTUDRECOMPENSADA">OBRAESM</bibl><bibl xml:id="OBRAPRESIDENTATURBEL">OBRAESM</bibl><bibl xml:id="OBRAJULIANUEVAELOISA">OBRAESM</bibl></listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc/>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
